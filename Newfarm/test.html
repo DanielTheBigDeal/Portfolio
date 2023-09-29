@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .tr {
+      padding: 10px;
+    }
+
+    .stuff {
+      padding-right: 100px;
+    }
+
+    .delete {
+      border: none;
+      background-color: transparent;
+      color: red;
+    }
+
+    th {
+      padding-left: 0;
+      text-align: left;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="cart">
+    <table id="table-cart">
+      <thead>
+        <tr class="tr">
+          <th>Наименование</th>
+          <th>Цена</th>
+          <th>Кол-во</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tr class="tr">
+        <td class="td stuff">Мелиса</td>
+        <td class="td">220p</td>
+        <td class="td">(2шт)</td>
+        <td class="td">
+          <button id="delete-btn" class="delete">X</button>
+        </td>
+      </tr>
+      <tr class="tr">
+        <td class="td stuff">Горчица</td>
+        <td class="td">220p</td>
+        <td class="td">(2шт)</td>
+        <td class="td">
+          <button class="delete">X</button>
+        </td>
+      </tr>
+      <tr class="tr">
+        <td class="td stuff">Руккола</td>
+        <td class="td">220p</td>
+        <td class="td">(2шт)</td>
+        <td class="td">
+          <button class="delete">X</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

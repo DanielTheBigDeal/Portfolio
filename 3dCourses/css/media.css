@@ -1,0 +1,603 @@
+@media (max-width: 1200px) {
+  .header__logo {
+    margin-right: 44%;
+  }
+
+  .header__list {
+    gap: 20px;
+  }
+
+  .top {
+    margin-bottom: 75px;
+  }
+
+  .top__head, .top__descr {
+    max-width: 420px;
+  }
+
+  .top__head {
+    padding-top: 122px;
+    margin-bottom: 10px;
+  }
+
+  .top__descr {
+    margin-bottom: 63px;
+  }
+
+  .top__btn {
+    padding: 21px 76px;
+  }
+
+  .top__column:last-child {
+    padding-left: 1%;
+  }
+
+  .benefits {
+    margin-bottom: 73px;
+  }
+
+  .benefits__head {
+    margin-bottom: 5px;
+  }
+
+  .benefits__card {
+    margin-bottom: 15px;
+  }
+
+  .benefits__icon:nth-child(2) {
+    background-position: 14% 50%;
+  }
+
+  .benefits__icon:nth-child(3) {
+    background-position: 14.5% 50%;
+  }
+
+  .teachers {
+    margin-bottom: 69px;
+  }
+
+  .teachers__head {
+    padding-top: 68px;
+  }
+
+  .teachers__list {
+    padding-bottom: 73px;
+  }
+
+  .courses__head {
+    margin-bottom: 20px;
+  }
+
+  .courses__duration {
+    padding-bottom: 122px;
+  }
+
+  .courses__title {
+    margin-bottom: 8px;
+  }
+
+  .courses__derscr {
+    margin-bottom: 48px;
+  }
+
+  .second-text {
+    margin-bottom: 37px;
+  }
+
+  .third-card {
+    margin-bottom: 59px;
+  }
+
+  .card-img-1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .courses {
+    margin-bottom: 73px;
+  }
+}
+@media (max-width: 992px) {
+
+  .header__logo {
+    margin-right: 18%;
+  }
+
+  .header__list {
+    gap: 35px;
+  }
+
+  .header__nav {
+    padding-bottom: 25px;
+  }
+
+  .top__head {
+    margin-bottom: 4px;
+    max-width: 385px;
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .top__descr {
+    max-width: 345px;
+  }
+
+  .top__btn {
+    margin-bottom: 135px;
+  }
+
+  .top__column:first-child {
+    max-width: 350px;
+  }
+
+  .top__column:last-child {
+    padding-left: 45px;
+    background-image: url('../img/romb992.png');
+    background-position: 11% 23%;
+  }
+
+  .top__image {
+    padding-top: 125px;
+  }
+
+  .benefits__card {
+    padding-left: 240px;
+    background-image: url('../img/rolls992.png');
+  }
+
+  .benefits__head {
+    margin-bottom: 0;
+  }
+
+  .benefits__text {
+    max-width: 450px;
+    font-size: 17px;
+  }
+
+  .benefits__card {
+    background-position-y: 46%;
+  }
+
+  .benefits__icon {
+    flex-direction: column;
+  }
+
+  .benefits__icon img {
+    width: 80px;
+  }
+
+  .benefits__icon:nth-child(2) {
+    background-position: 20% 21%;
+  }
+
+  .benefits__icon:nth-child(3) {
+    background-position: 20.5% 23%;
+  }
+
+  .benefits__descr {
+    max-width: 210px;
+    padding-top: 15px;
+    margin-left: 0px;
+    line-height: 160%;
+  }
+
+  .teachers__head {
+    margin-bottom: 23px;
+  }
+
+  .teachers__name {
+    margin-bottom: 8px;
+  }
+
+  .teachers__teacher {
+    margin-bottom: 8px;
+    max-width: 360px;
+  }
+
+  .teachers__list {
+    padding-bottom: 24px;
+  }
+
+  .courses__head {
+    margin-bottom: 21px;
+  }
+
+  .courses__title {
+    max-width: 254px;
+  }
+
+  .courses__derscr {
+    max-width: 270px;
+  }
+
+  .cd-1 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 133%;
+  }
+
+  .courses__btn {
+    padding: 18.5px 59.5px;
+  }
+
+  .courses__card {
+    max-width: 330px;
+  }
+
+  .course-1 {
+    visibility: hidden;
+  }
+
+  .hide-the-elem {
+    visibility: hidden;
+  }
+
+  .hide-the-elem-3 {
+    visibility: hidden;
+  }
+
+  .courses {
+    margin-bottom: 79px;
+  }
+
+  .courses__duration {
+    padding: 10px 5px 146px 222px;
+  }
+
+  .courses__hours {
+    visibility: hidden;
+  }
+
+  .card-img-1 {
+    background-image: url('../img/courseCardfrs992.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card-img-2 {
+    background-image: url('../img/courseCardsec992.jpg');
+  }
+
+  .second-text {
+    font-size: 16px;
+    margin-bottom: 77px;
+  }
+
+  .card-img-3 {
+    background-image: url('../img/courseCardthird992.jpg');
+  }
+
+  .card-img-4 {
+    background-image: url('../img/courseCardfour992.jpg');
+  }
+
+  .third-card {
+    margin-bottom: 101px;
+    line-height: 132%;
+  }
+
+  .cd-4 {
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .footer__icons {
+    padding-top: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .top__image {
+    display: none;
+  }
+
+  .benefits__card {
+    padding-left: 180px;
+    background-image: url('../img/rolls768.jpg');
+    background-position-y: 30%;
+  }
+
+  .benefits__text {
+    max-width: 330px;
+  }
+
+  .benefits__icon:nth-child(2) {
+    background-position: 27% 18%;
+  }
+
+  .benefits__icon:nth-child(3) {
+    background-position: 27.5% 18%;
+  }
+
+  .benefits__descr {
+    max-width: 150px;
+  }
+
+  .teachers__teacher {
+    max-width: 270px;
+  }
+
+  .course-1 {
+    visibility: visible;
+  }
+
+  .courses__card {
+    max-width: 240px;
+  }
+
+  .courses__title {
+    max-width: 194px;
+  }
+
+  .courses__duration {
+    padding: 10px 5px 148px 135px;
+  }
+
+  .courses__derscr {
+    max-width: 180px;
+  }
+
+  .courses__hours {
+    visibility: visible;
+  }
+
+  .second-text {
+    margin-bottom: 80px;
+  }
+
+  .third-card {
+    margin-bottom: 55px;
+  }
+
+  .card-img-1 {
+    background-image: url('../img/courseFrs768.jpg');
+  }
+
+  .card-img-2 {
+    background-image: url('../img/courseSec768.jpg');
+  }
+
+  .card-img-3 {
+    background-image: url('../img/courseThrd768.jpg');
+  }
+
+  .card-img-4 {
+    background-image: url('../img/courseFour768.jpg');
+  }
+
+  .hide-the-elem {
+    visibility: hidden;
+  }
+
+  .hide-the-elem-3 {
+    visibility: hidden;
+  }
+
+  .courses__btn {
+    padding: 20.5px 48px;
+  }
+
+  .course-2 {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .header__logo {
+    padding-top: 25px;
+  }
+
+  .header__nav {
+    padding-top: 22px;
+  }
+
+  .header__list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .top {
+    margin-bottom: 48px;
+  }
+
+  .top__head {
+    max-width: 226px;
+    margin-bottom: 5px;
+    padding-top: 47px;
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .top__descr {
+    max-width: 290px;
+    margin-bottom: 47px;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .top__btn {
+    padding: 17.5px 56.5px;
+    margin-bottom: 50px;
+    font-size: 16px;
+  }
+
+  .benefits {
+    margin-bottom: 50px;
+  }
+
+  .benefits__head {
+    max-width: 290px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .benefits__card {
+    padding-left: 0;
+    margin-bottom: 23px;
+    background-image: none;
+  }
+
+  .benefits__text {
+    max-width: 290px;
+    margin-bottom: 0;
+    line-height: 134%;
+    font-size: 18px;
+  }
+
+  .benefits__additional {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .benefits__icon {
+    flex-direction: row;
+  }
+
+  .benefits__descr {
+    padding-top: 5px;
+    line-height: 113%;
+  }
+
+  .benefits__icon:nth-child(2) {
+    background-position: 14% 50%;
+  }
+
+  .benefits__icon:nth-child(3) {
+    background-position: 14.5% 50%;
+  }
+
+  .benefits__descr {
+    margin-left: 30px;
+  }
+
+  .teachers__head {
+    padding-top: 46px;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .teachers__teacher {
+    max-width: 320px;
+    margin-bottom: 7px;
+  }
+
+  .teachers__descr {
+    max-width: 290px;
+  }
+
+  .td-2 {
+    font-size: 17px;
+    line-height: 140%;
+  }
+
+  .td-4 {
+    font-size: 19px;
+    line-height: 124%;
+  }
+
+  .teachers__teacher:last-child {
+    margin-bottom: 0;
+  }
+
+  .teachers {
+    margin-bottom: 44px;
+  }
+
+  .teachers__list {
+    padding-bottom: 33px;
+  }
+
+  .courses__head {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+
+  .courses__duration {
+    padding: 8px 5px 148px 135px;
+  }
+
+  .courses__title {
+    line-height: 130%;
+  }
+
+  .courses__row {
+    flex-wrap: wrap;
+  }
+
+  .courses__card {
+    max-width: 290px;
+  }
+
+  .card-img-1 {
+    background-image: url('../img/cardone576.jpg');
+  }
+
+  .card-img-2 {
+    background-image: url('../img/cardtwo576.jpg');
+  }
+
+  .card-img-3 {
+    background-image: url('../img/cardthree576.jpg');
+  }
+
+  .card-img-4 {
+    background-image: url('../img/cardfour576.jpg');
+  }
+
+  .hide-the-elem {
+    visibility: visible;
+  }
+
+  .courses__derscr {
+    max-width: 228px;
+  }
+
+  .courses__btn {
+    padding: 20.5px 55.5px;
+  }
+
+  .courses {
+    margin-bottom: 50px;
+  }
+
+  .cd-1 {
+    margin-bottom: 82px;
+  }
+
+  .cd-4 {
+    margin-bottom: 79px;
+    line-height: 135%;
+  }
+
+  .courses__btn {
+    padding: 18.5px 59.5px;
+    margin-bottom: 29px;
+  }
+
+  .second-text {
+    margin-bottom: 129px;
+    font-size: 17px;
+    line-height: 142%;
+  }
+
+  .third-card {
+    margin-bottom: 154px;
+    font-size: 19px;
+    line-height: 127%;
+  }
+}
