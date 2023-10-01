@@ -51,6 +51,10 @@
     font-size: 40px;
   }
 
+  .sec-col {
+    display: none;
+  }
+
   .store__list {
     max-width: 260px;
   }

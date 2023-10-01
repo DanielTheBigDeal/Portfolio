@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
   <script defer src="scripts/info.js"></script>
-  <script defer src="scripts/cart.js"></script>
+  <!--<script defer src="scripts/cart.js"></script>-->
 </head>
 <body>
   <header class="header bg-dark">
@@ -45,6 +45,19 @@
         <button type="button" class="top__btn btn-reset"><a href="#store" class="reset-link">Магазин</a></button>
       </div>
     </section>
+    <section class="about">
+      <div class="container">
+        <div class="about__row">
+          <div class="col">
+            <h2 class="about__head">Что такое Newfarm?</h2>
+            <p class="about__descr">Newfarm&nbsp;&mdash; это компания, которая предоставляет доступ к&nbsp;натуральной и&nbsp;свежей продукции, чтобы вы&nbsp;могли наслаждаться вкусной, свежей и&nbsp;полезной едой каждый день!</p>
+          </div>
+          <div class="sec-col col">
+            <img class="about__pic" src="https://sun78-1.userapi.com/impg/QyQHi2bnmmVQZcVEu_3LzceAEKYf8T0WbzoS4g/zf7a7WycTxE.jpg?size=1040x0&quality=90&sign=ce6bc2a0de4a71e0da0007c3d4d872f1" alt="Изображение товаров Newfarm">
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="store" class="store">
       <div class="container">
         <h2 class="store__head">Микрозелень в&nbsp;сером городе, совсем не&nbsp;похожем на&nbsp;то, что мы&nbsp;выращиваем</h2>
@@ -66,7 +79,7 @@
                 <p class="descriptions__descr">Мелисса прекрасно дополнит рыбные, мясные боюда, блюда из&nbsp;птицы и&nbsp;овощные смеси. Мелисса улучшает пищеварение и&nbsp;обмен веществ. Снимает нервное напряжение и&nbsp;успокаивает. Обладает противовирусными и&nbsp;антибактериальными свойствами.</p>
                 <p class="descriptions__descr">Зелень мелиссы лимонной расширяет сосуды и&nbsp;понижает кровяное давление, снижает уровень холестерина.</p>
                 <p class="descriptions__descr">Микрозелень мелиссы содержит в&nbsp;себе: эфирное масло, которое обладает успокаивающим эффектом, флавоноиды, органические кислоты, витамины (В1, В2, С, А), железо, калий, марганец, селен, кальций, магний.</p>
-                <button onclick="addMelisa()" class="descriptions__add" data-id="melisa">Добавить в корзину</button>
+                <!--<button onclick="addMelisa()" class="descriptions__add" data-id="melisa">Добавить в корзину</button>-->
                 <button class="btn-close">X</button>
               </span>
               <div class="overlay"></div>
@@ -95,7 +108,7 @@
                 <p class="descriptions__descr">Иногда базилик лимонный используют как ароматную траву для приготовления чая и других напитков.</p>
                 <p class="descriptions__descr">Полезные элементы внутри:</p>
                 <p class="descriptions__descr">Эфирные масла, витамины (В1, B2, B5, B9, A, C, E, K, PP, ); минералы (калий, кальций, медь, фосфор, натрий, железо, марганец, селен)</p>
-                <button class="descriptions__add" onclick="addBasil()">Добавить в корзину</button>
+                <!--<button class="descriptions__add" onclick="addBasil()">Добавить в корзину</button>-->
                 <button class="btn-close">X</button>
               </span>
               <div class="overlay"></div>
@@ -120,7 +133,7 @@
                 <p class="descriptions__descr">Витамины:</p>
                 <p class="descriptions__descr">В1, В2, В5, В6, В9, бета-каротин, К, С, PP.</p>
                 <p class="descriptions__descr">Микро и&nbsp;макроэлементы: кремний, кальций, медь, фосфор, магний, цинк, делезо, молибден.</p>
-                <button class="descriptions__add" onclick="addRadish()">Добавить в корзину</button>
+                <!--<button class="descriptions__add" onclick="addRadish()">Добавить в корзину</button>-->
                 <button class="btn-close">X</button>
               </span>
               <div class="overlay"></div>
@@ -140,7 +153,7 @@
                 <strong class="descriptions__price">150&nbsp;Р</strong>
                 <p class="descriptions__descr">Микрозелень гороха содержит витамины&nbsp;А и&nbsp;С, фолиевую кислоту, каротин и&nbsp;антиоксиданты. Потребление данной микрозелени с&nbsp;мощным составом микро и&nbsp;макроэлементов&nbsp;&mdash; хорошая профилактика против рака.
                   Микрозелень гороха богата клетчаткой и&nbsp;низкокалорийна, поэтому станет здоровым и&nbsp;полезным дополнением рациона во&nbsp;время похудения.</p>
-                <button class="descriptions__add" onclick="addPea()">Добавить в корзину</button>
+                <!--<button class="descriptions__add" onclick="addPea()">Добавить в корзину</button>-->
                 <button class="btn-close">X</button>
               </span>
               <div class="overlay"></div>
@@ -161,7 +174,7 @@
                 <strong class="descriptions__price">170&nbsp;Р</strong>
                 <p class="descriptions__descr">Данная микрозелень содержит витамины А, В, С, Е, К, микроэлементы магний, медь, цинк, селен, железо, натрий, кальций, калий, марганец, фосфор, йод, селен, флавоноиды, эфирные масла, жирные кислоты Омега&nbsp;3, 6, 9. Способствует выведению холестерина и&nbsp;повышению уровня гемоглобина.</p>
                 <p class="descriptions__descr">Руккола очень нежная и&nbsp;душистая, с&nbsp;пряным, орехово-горчичным вкусом. Является отличной добавкой к&nbsp;мясным, рыбным блюдам и&nbsp;салатам.</p>
-                <button class="descriptions__add" onclick="addIndau()">Добавить в корзину</button>
+                <!--<button class="descriptions__add" onclick="addIndau()">Добавить в корзину</button>-->
                 <button class="btn-close">X</button>
               </span>
               <div class="overlay"></div>
@@ -182,7 +195,7 @@
                 <strong class="descriptions__price">250&nbsp;Р</strong>
                 <p class="descriptions__descr">Это необычная смесь проростков базилика с&nbsp;терпким, пряным вкусом. Данная микрозелень обладает контрастным вкусом и&nbsp;свежими, лимонными нотками. Является источником антиоксидантов, витаминов и&nbsp;эфирных масел.</p>
                 <p class="descriptions__descr">Необычное украшение для привычных блюд добавит новизны в&nbsp;ваш рацион.</p>
-                <button class="descriptions__add" onclick="addVioletLimon()">Добавить в корзину</button>
+                <!--<button class="descriptions__add" onclick="addVioletLimon()">Добавить в корзину</button>-->
                 <button class="btn-close">X</button>
               </span>
               <div class="overlay"></div>
@@ -205,7 +218,7 @@
                 <p class="descriptions__descr">Горьковатый вкус капусте дают глюкозинолаты, которые препятствуют делению раковых клеток.</p>
                 <p class="descriptions__descr">Снижает уровень триглициридов в&nbsp;печени, снижая риск развития атеросклероза. Микрозелень краснокочанной капусты является антибактериальным средством и&nbsp;заживляет слизистую желудка при язвах, травмах, эрозиях.</p>
                 <p class="descriptions__descr">Капуста красная содержит в&nbsp;себе каротин, витамины С, К1, Е, фитонциды, токоферол, лютеин. Минералы: железо, магний, калий.</p>
-                <button class="descriptions__add" onclick="addRedCabbage()">Добавить в корзину</button>
+                <!--<button class="descriptions__add" onclick="addRedCabbage()">Добавить в корзину</button>-->
                 <button class="btn-close">X</button>
               </span>
               <div class="overlay"></div>
@@ -228,7 +241,7 @@
                 <p class="descriptions__descr">Горчица содержит в&nbsp;себе:</p>
                 <p class="descriptions__descr">Витамины А, В1, В2, Е, бета-каротин. Макро и&nbsp;микроэлементы: кальций, калий, железо, натрий, магний, фосфор.</p>
                 <p class="descriptions__descr">Горчица имеет островатый, бодрящий вкус. Она прекрасно дополнит мясные и&nbsp;рыбные блюда и&nbsp;станет натуральной заменой привычным приправам.</p>
-                <button class="descriptions__add" onclick="addMustard()">Добавить в корзину</button>
+                <!--<button class="descriptions__add" onclick="addMustard()">Добавить в корзину</button>-->
                 <button class="btn-close">X</button>
               </span>
               <div class="overlay"></div>
@@ -246,8 +259,8 @@
         </p>
       </div>
     </section>
-    <section class="cart">    
-        <a href="cart.html" class="cart-icon">
+    <!--<section class="cart">    
+        <a href="#cart" onclick="printCart()" class="cart-icon">
           <svg class="cart-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100.353 100.353" style="enable-background:new 0 0 100.353 100.353;" xml:space="preserve">
             <path fill="white" d="M78.68,27.971l-11.23-0.125v-7.359c0-9.725-7.913-17.636-17.638-17.636c-9.724,0-17.635,7.912-17.635,17.636v6.965
               l-10.823-0.121c-0.41,0.009-0.787,0.152-1.071,0.434c-0.285,0.282-0.445,0.666-0.445,1.066v66.818c0,0.829,0.671,1.5,1.5,1.5h57.327
@@ -260,11 +273,31 @@
               s-0.975,2.173-2.173,2.173s-2.173-0.975-2.173-2.173S64.752,37.668,65.95,37.668z"/>
           </svg>
         </a>
-    </section>
+        <div id="cart" class="modal">
+          <span class="modal-window">
+            <h3 class="cart-head">Корзина</h3>
+            <table id="cart-table" class="cart__table">
+              <thead>
+                <tr class="cart-tr">
+                  <th class="cart-th">Наименование</th>
+                  <th class="cart-th">Цена</th>
+                  <th class="cart-th">Удалить</th>
+                </tr>
+              </thead>
+              <tr id="cart-tr" class="cart__tr">
+                <td class="cart__summary" id="summary">Итого:</td>
+                <td class="cart__toPay" id="fullPrice"></td>
+              </tr>
+              <button class="btn-buy btn-reset">Оплатить</button>
+            </table>
+            <button onclick="hideCart()" class="btn-close">X</button>
+          </span>
+          <div class="overlay"></div>
+        </div>
+    </section>-->
   </main>
   <footer class="footer">
     <div class="container">
-      <h3 class="footer__head">Контакты</h3>
       <p class="footer__descr">
         Мы всегда стремимся подружиться с нашими клиентами, звоните и пишите нам по любым вопросам.
       </p>
