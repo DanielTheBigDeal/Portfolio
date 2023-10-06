@@ -40,50 +40,6 @@ let mustard = {
   price: 160,
 }
 
-const $basketTable = document.getElementById('basket-table');
-
-// function showBasket() {
-//   for (purchase of basket) {
-//     const $purchaseTr = document.createElement('tr');
-//     const $purchaseName = document.createElement('td');
-//     const $purchaseprice = document.createElement('td');
-
-//     $purchaseName.textContent = purchase.name;
-//     $purchaseprice.textContent = purchase.price;
-
-//     $studTr.classList.add('');
-
-//     $purchaseTr.append($purchaseName, $purchaseprice);
-//     $basketTable.append($purchaseTr);
-//   }
-// }
-
-/*if () {
-  let empty = document.createElement('h2');
-  empty.textContent = 'Здесь пока пусто';
-  const table = document.getElementById('cart-tr');
-  table.append(empty);
-}*/
-
-/*document.onclick = (event) => {
-  if (event.target.classList.contains('descriptions__add')) {
-    addFunction(event.target.dataset.id);
-  }
-
-  else if (event.target.classList.contains('cart__delete')) {
-    deleteFunction(event.target.dataset.id)
-  }
-}
-
-const addFunction = (id) => {
-  cart[id]++;
-  renderCart();
-}
-
-function renderCart() {
-  console.log(cart);
-}*/
-
 function addMelisa() {
   cart.push(melisa);
   console.log(cart);
@@ -129,33 +85,45 @@ function addMustard() {
   console.log(cart);
 };
 
-/*switch (elemId) {
-    case 'melisa': 
-    let melisa = {
-      name: 'Мелисса ароматный лимон',
-      price: 220,
-    }
-      cart.push(melisa);
-      break;
-    case 'basil':
-      cart.push(basil);
-      break;
-    case 'radishAdd':
-      cart.push(radis);
-      break;
-    case 'peaAdd':
-      cart.push(pea);
-      break;
-    case 'indauAdd':
-      cart.push(indau);
-      break;
-    case 'violetLimonAdd':
-      cart.push(violetLimon);
-      break;
-    case 'redCabbageAdd':
-      cart.push(redCabbage);
-      break;
-    case 'mustardAdd':
-      cart.push(mustard);
-      break;
-  }*/
+const $basketTable = document.getElementById('cart-table');
+
+function printCart(item) {
+  for (item of cart) {
+    const $cartTr = document.createElement('tr');
+    const $cartName = document.createElement('td');
+    const $cartPrice = document.createElement('td');
+    const $cartDelete = document.createElement('td');
+    const $cartDeleteBtn = document.createElement('button');
+
+    $cartTr.style.borderBottom = '1px solid black'
+
+    $cartDeleteBtn.textContent = 'X';
+    $cartDeleteBtn.style.padding = '5px'
+    $cartDeleteBtn.style.fontSize = '20px';
+    $cartDeleteBtn.style.color = 'red';
+    $cartDeleteBtn.style.backgroundColor = 'transparent';
+    $cartDeleteBtn.style.border = 'none';
+
+    $cartName.textContent = item.name;
+    $cartName.classList.add('cart-name');
+
+    $cartPrice.textContent = item.price;
+    $cartPrice.style.fontSize = '25px';
+    $cartPrice.style.fontWeight = 600;
+    $cartPrice.classList.add('cart-price')
+
+    $cartDelete.append($cartDeleteBtn);
+    $cartTr.classList.add('cart-tr');
+
+    $cartTr.append($cartName, $cartPrice, $cartDelete);
+    $basketTable.append($cartTr);
+    const info = document.getElementById('cart');
+    info.classList.toggle('show');
+  }
+
+}
+
+function hideCart() {
+  const info = document.getElementById('cart');
+  info.style.display = 'none';
+}

@@ -79,6 +79,35 @@ body {
   color: inherit;
 }
 
+/*about*/
+
+.about {
+  margin-bottom: 80px;
+}
+
+.about__row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.about__head {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #0a1d4d;
+}
+
+.about__descr {
+  font-size: 20px;
+}
+
+.about__pic {
+  max-width: 500px;
+  width: 100%;
+  height: 300px;
+  border-radius: 16px;
+}
+
 /*store*/
 
 .store {
@@ -209,6 +238,8 @@ body {
   color: white;
 }
 
+/*pop up*/
+
 .modal {
   position: fixed;
   top: 0;
@@ -286,19 +317,7 @@ body {
   background: #000;
 }
 
-/*basket*/
-
-.backet__table {
-  display: none;
-}
-
-.btn-buy {
-  font-size: 16px;
-  background-color: greenyellow;
-  color: #000;
-}
-
-/*cart icon*/
+/*cart*/
 
 .cart-icon {
   position: fixed;
@@ -310,8 +329,38 @@ body {
   background-color: #000;
 }
 
+.cart__table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .cart-svg {
   width: 50px;
 }
 
+.cart-head {
+  text-align: center;
+  color: #0a1d4d;
+}
 
+.cart-name {
+  font-size: 25px;
+}
+
+.cart-tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.cart-th {
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn-buy {
+  font-size: 16px;
+  background-color: greenyellow;
+  color: #000;
+}
