@@ -1,165 +1,1750 @@
 <!DOCTYPE html>
 <!-- saved from url=(0050)http://danielstildaportfollio.tilda.ws/lfarbitrage -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--metatextblock--><title>Lonf Flow Arbitrage</title><meta name="description" content="Веб приложение для арбитража криптовалюты"> <meta property="og:url" content="http://danielstildaportfollio.tilda.ws/lfarbitrage"><meta property="og:title" content="Lonf Flow Arbitrage"><meta property="og:description" content="Веб приложение для арбитража криптовалюты"><meta property="og:type" content="website"><link rel="canonical" href="http://danielstildaportfollio.tilda.ws/lfarbitrage"><!--/metatextblock--><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://ws.tildacdn.com/"><link rel="dns-prefetch" href="https://static.tildacdn.info/"><link rel="shortcut icon" href="https://static.tildacdn.info/img/tildafavicon.ico" type="image/x-icon"><!-- Assets --><script type="text/javascript" async="" id="tildastatscript" src="./Lonf Flow Arbitrage_files/tilda-stat-1.0.min.js.download"></script><script src="./Lonf Flow Arbitrage_files/tilda-fallback-1.0.min.js.download" async="" charset="utf-8"></script><link rel="stylesheet" href="./Lonf Flow Arbitrage_files/tilda-grid-3.0.min.css" type="text/css" media="all" onerror="this.loaderr=&#39;y&#39;;"><link rel="stylesheet" href="./Lonf Flow Arbitrage_files/tilda-blocks-page39865698.min.css" type="text/css" media="all" onerror="this.loaderr=&#39;y&#39;;"><link rel="stylesheet" href="./Lonf Flow Arbitrage_files/tilda-cards-1.0.min.css" type="text/css" media="all" onerror="this.loaderr=&#39;y&#39;;"><link rel="stylesheet" href="./Lonf Flow Arbitrage_files/tilda-forms-1.0.min.css" type="text/css" media="all" onerror="this.loaderr=&#39;y&#39;;"><link rel="stylesheet" href="./Lonf Flow Arbitrage_files/fonts-tildasans.css" type="text/css" media="all" onerror="this.loaderr=&#39;y&#39;;"><script nomodule="" src="./Lonf Flow Arbitrage_files/tilda-polyfill-1.0.min.js.download" charset="utf-8"></script><script type="text/javascript">function t_onReady(func) {
-if (document.readyState != 'loading') {
-func();
-} else {
-document.addEventListener('DOMContentLoaded', func);
-}
-}
-function t_onFuncLoad(funcName, okFunc, time) {
-if (typeof window[funcName] === 'function') {
-okFunc();
-} else {
-setTimeout(function() {
-t_onFuncLoad(funcName, okFunc, time);
-},(time || 100));
-}
-}function t_throttle(fn, threshhold, scope) {return function () {fn.apply(scope || this, arguments);};}</script><script src="./Lonf Flow Arbitrage_files/tilda-scripts-3.0.min.js.download" charset="utf-8" defer="" onerror="this.loaderr=&#39;y&#39;;"></script><script src="./Lonf Flow Arbitrage_files/tilda-blocks-page39865698.min.js.download" charset="utf-8" async="" onerror="this.loaderr=&#39;y&#39;;"></script><script src="./Lonf Flow Arbitrage_files/lazyload-1.3.min.js.download" charset="utf-8" async="" onerror="this.loaderr=&#39;y&#39;;"></script><script src="./Lonf Flow Arbitrage_files/tilda-menu-1.0.min.js.download" charset="utf-8" async="" onerror="this.loaderr=&#39;y&#39;;"></script><script src="./Lonf Flow Arbitrage_files/tilda-zero-1.1.min.js.download" charset="utf-8" async="" onerror="this.loaderr=&#39;y&#39;;"></script><script src="./Lonf Flow Arbitrage_files/tilda-cards-1.0.min.js.download" charset="utf-8" async="" onerror="this.loaderr=&#39;y&#39;;"></script><script src="./Lonf Flow Arbitrage_files/tilda-forms-1.0.min.js.download" charset="utf-8" async="" onerror="this.loaderr=&#39;y&#39;;"></script><script src="./Lonf Flow Arbitrage_files/tilda-zero-forms-1.0.min.js.download" charset="utf-8" async="" onerror="this.loaderr=&#39;y&#39;;"></script><script src="./Lonf Flow Arbitrage_files/tilda-skiplink-1.0.min.js.download" charset="utf-8" async="" onerror="this.loaderr=&#39;y&#39;;"></script><script src="./Lonf Flow Arbitrage_files/tilda-events-1.0.min.js.download" charset="utf-8" async="" onerror="this.loaderr=&#39;y&#39;;"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];</script><script type="text/javascript">(function () {
-if((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent))===false && typeof(sessionStorage)!='undefined' && sessionStorage.getItem('visited')!=='y' && document.visibilityState){
-var style=document.createElement('style');
-style.type='text/css';
-style.innerHTML='@media screen and (min-width: 980px) {.t-records {opacity: 0;}.t-records_animated {-webkit-transition: opacity ease-in-out .2s;-moz-transition: opacity ease-in-out .2s;-o-transition: opacity ease-in-out .2s;transition: opacity ease-in-out .2s;}.t-records.t-records_visible {opacity: 1;}}';
-document.getElementsByTagName('head')[0].appendChild(style);
-function t_setvisRecs(){
-var alr=document.querySelectorAll('.t-records');
-Array.prototype.forEach.call(alr, function(el) {
-el.classList.add("t-records_animated");
-});
-setTimeout(function () {
-Array.prototype.forEach.call(alr, function(el) {
-el.classList.add("t-records_visible");
-});
-sessionStorage.setItem("visited", "y");
-}, 400);
-} 
-document.addEventListener('DOMContentLoaded', t_setvisRecs);
-}
-})();</script><style type="text/css">@media screen and (min-width: 980px) {.t-records {opacity: 0;}.t-records_animated {-webkit-transition: opacity ease-in-out .2s;-moz-transition: opacity ease-in-out .2s;-o-transition: opacity ease-in-out .2s;transition: opacity ease-in-out .2s;}.t-records.t-records_visible {opacity: 1;}}</style></head><body class="t-body" style="margin:0;"><!--allrecords--><div id="allrecords" class="t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-project-id="7876076" data-tilda-page-id="39865698" data-tilda-page-alias="lfarbitrage" data-tilda-formskey="6f3d600d9194200b55c5604c37876076" data-tilda-cookie="no" data-tilda-lazy="yes"><div id="rec644874282" class="r t-rec" style="opacity: 1;" data-animationappear="off" data-record-type="360"><!-- T360 --><style>@media screen and (min-width: 980px) {
-.t-records {
-opacity: 0;
-}
-.t-records_animated {
--webkit-transition: opacity ease-in-out .5s;
--moz-transition: opacity ease-in-out .5s;
--o-transition: opacity ease-in-out .5s;
-transition: opacity ease-in-out .5s;
-}
-.t-records.t-records_visible,
-.t-records .t-records {
-opacity: 1;
-}
-}</style><script>t_onReady(function () {
-var allRecords = document.querySelector('.t-records');
-window.addEventListener('pageshow', function (event) {
-if (event.persisted) {
-allRecords.classList.add('t-records_visible');
-}
-});
-var rec = document.querySelector('#rec644874282');
-if (!rec) return;
-rec.setAttribute('data-animationappear', 'off');
-rec.style.opacity = '1';
-allRecords.classList.add('t-records_animated');
-setTimeout(function () {
-allRecords.classList.add('t-records_visible');
-}, 200);
-});</script><script>t_onReady(function () {
-var selects = 'button:not(.t-submit):not(.t835__btn_next):not(.t835__btn_prev):not(.t835__btn_result):not(.t862__btn_next):not(.t862__btn_prev):not(.t862__btn_result):not(.t854__news-btn):not(.t862__btn_next),' +
-'a:not([href*="#"]):not(.carousel-control):not(.t-carousel__control):not(.t807__btn_reply):not([href^="#price"]):not([href^="javascript"]):not([href^="mailto"]):not([href^="tel"]):not([href^="link_sub"]):not(.js-feed-btn-show-more):not(.t367__opener):not([href^="https://www.dropbox.com/"])';
-var elements = document.querySelectorAll(selects);
-Array.prototype.forEach.call(elements, function (element) {
-if (element.getAttribute('data-menu-submenu-hook')) return;
-element.addEventListener('click', function (event) {
-var goTo = this.getAttribute('href');
-if (goTo !== null) {
-var ctrl = event.ctrlKey;
-var cmd = event.metaKey && navigator.platform.indexOf('Mac') !== -1;
-if (!ctrl && !cmd) {
-var target = this.getAttribute('target');
-if (target !== '_blank') {
-event.preventDefault();
-var allRecords = document.querySelector('.t-records');
-if (allRecords) {
-allRecords.classList.remove('t-records_visible');
-}
-setTimeout(function () {
-window.location = goTo;
-}, 500);
-}
-}
-}
-});
-});
-});</script></div><div id="rec644874283" class="r t-rec r_showed r_anim" style=" " data-record-type="394"><style>#allrecords .t-text a,
-#allrecords .t-descr a,
-#allrecords .t-heading a:not(.t-feed__link),
-#allrecords .t-title a,
-#allrecords .t-impact-text a,
-#allrecords .t-text-impact a,
-#allrecords .t-name:not(.t-feed__parts-switch-btn) a:not(.t794__typo):not(.t-menusub__link-item):not(.t-card__link):not(.t-feed__link),
-#allrecords .t-uptitle a{
-color: #0056d3;
-font-weight: inherit;
-border-bottom: 0px solid #ff3503;
--webkit-box-shadow: inset 0px 0px 0px #ff3503;
--moz-box-shadow: inset 0px 0px 0px #ff3503;
-box-shadow: inset 0px 0px 0px #ff3503;
-}</style></div><div id="rec644874284" class="r t-rec t-rec_pt_0" style="padding-top:0px; " data-animationappear="off" data-record-type="257"><!-- T228 --><div id="nav644874284marker"></div><div id="nav644874284" class="t228 t228__positionstatic " style="background-color: rgba(255,255,255,1); " data-bgcolor-hex="#ffffff" data-bgcolor-rgba="rgba(255,255,255,1)" data-navmarker="nav644874284marker" data-appearoffset="" data-bgopacity-two="" data-menushadow="" data-bgopacity="1" data-menu-items-align="right" data-menu="yes"><div class="t228__maincontainer t228__c12collumns" style=""><div class="t228__padding40px"></div><div class="t228__leftside"><div class="t228__leftcontainer"><a href="http://danielstildaportfollio.tilda.ws/lfarbitrage#" class="t228__imgwrapper" style="color:#000000;"><div class="t228__logo t-title" field="title" style="color:#000000;"><span style="color: rgb(0, 86, 211);">LF arbitrage</span></div></a></div></div><div class="t228__centerside t228__menualign_right"><nav class="t228__centercontainer" aria-label="Основная навигация"><ul role="list" class="t228__list t-menu__list"><li class="t228__list_item" style="padding:0 15px 0 0;"><a class="t-menu__link-item" href="http://danielstildaportfollio.tilda.ws/lfarbitrage" data-menu-submenu-hook="" data-menu-item-number="1" style="color:#000000;font-weight:400;">Тарифы</a></li><li class="t228__list_item" style="padding:0 15px;"><a class="t-menu__link-item" href="http://danielstildaportfollio.tilda.ws/lfarbitrage" data-menu-submenu-hook="" data-menu-item-number="2" style="color:#000000;font-weight:400;">Возможности</a></li><li class="t228__list_item" style="padding:0 0 0 15px;"><a class="t-menu__link-item" href="http://danielstildaportfollio.tilda.ws/lfarbitrage" data-menu-submenu-hook="" data-menu-item-number="3" style="color:#000000;font-weight:400;">Войти</a></li></ul></nav></div><div class="t228__rightside"><div class="t228__rightcontainer"><div class="t228__right_buttons"><div class="t228__right_buttons_wrap"><div class="t228__right_buttons_but"><a href="http://danielstildaportfollio.tilda.ws/lfarbitrage" target="" class="t-btn t-btn_md " style="color:#000000;border:2px solid #0056d3;font-weight:400;"><table role="presentation" style="width:100%; height:100%;"><tbody><tr><td>Регистрация</td></tr></tbody></table></a></div></div></div></div></div><div class="t228__padding40px"></div></div></div><style>@media screen and (max-width: 980px) {
-#rec644874284 .t228__leftcontainer {
-padding: 20px;
-}
-#rec644874284 .t228__imglogo {
-padding: 20px 0;
-}
-#rec644874284 .t228 {
-position: static;
-}
-}</style><script>window.addEventListener('resize', t_throttle(function () {
-t_onFuncLoad('t_menu__setBGcolor', function () {
-t_menu__setBGcolor('644874284', '.t228');
-});
-}));
-t_onReady(function () {
-t_onFuncLoad('t_menu__highlightActiveLinks', function () {
-t_menu__highlightActiveLinks('.t228__list_item a');
-});
-t_onFuncLoad('t228__init', function () {
-t228__init('644874284');
-});
-t_onFuncLoad('t_menu__setBGcolor', function () {
-t_menu__setBGcolor('644874284', '.t228');
-});
-t_onFuncLoad('t_menu__interactFromKeyboard', function () {
-t_menu__interactFromKeyboard('644874284');
-});
-});</script><!--[if IE 8]><style>#rec644874284 .t228 {
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--metatextblock-->
+  <title>Lonf Flow Arbitrage</title>
+  <meta name="description" content="Веб приложение для арбитража криптовалюты">
+  <meta property="og:url" content="http://danielstildaportfollio.tilda.ws/lfarbitrage">
+  <meta property="og:title" content="Lonf Flow Arbitrage">
+  <meta property="og:description" content="Веб приложение для арбитража криптовалюты">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="http://danielstildaportfollio.tilda.ws/lfarbitrage"><!--/metatextblock-->
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="https://ws.tildacdn.com/">
+  <link rel="dns-prefetch" href="https://static.tildacdn.info/">
+  <link rel="shortcut icon" href="https://static.tildacdn.info/img/tildafavicon.ico" type="image/x-icon"><!-- Assets -->
+  <script type="text/javascript" async="" id="tildastatscript"
+    src="./Lonf Flow Arbitrage_files/tilda-stat-1.0.min.js.download"></script>
+  <script src="./Lonf Flow Arbitrage_files/tilda-fallback-1.0.min.js.download" async="" charset="utf-8"></script>
+  <link rel="stylesheet" href="./Lonf Flow Arbitrage_files/tilda-grid-3.0.min.css" type="text/css" media="all"
+    onerror="this.loaderr=&#39;y&#39;;">
+  <link rel="stylesheet" href="./Lonf Flow Arbitrage_files/tilda-blocks-page39865698.min.css" type="text/css"
+    media="all" onerror="this.loaderr=&#39;y&#39;;">
+  <link rel="stylesheet" href="./Lonf Flow Arbitrage_files/tilda-cards-1.0.min.css" type="text/css" media="all"
+    onerror="this.loaderr=&#39;y&#39;;">
+  <link rel="stylesheet" href="./Lonf Flow Arbitrage_files/tilda-forms-1.0.min.css" type="text/css" media="all"
+    onerror="this.loaderr=&#39;y&#39;;">
+  <link rel="stylesheet" href="./Lonf Flow Arbitrage_files/fonts-tildasans.css" type="text/css" media="all"
+    onerror="this.loaderr=&#39;y&#39;;">
+  <script nomodule="" src="./Lonf Flow Arbitrage_files/tilda-polyfill-1.0.min.js.download" charset="utf-8"></script>
+  <script type="text/javascript">function t_onReady(func) {
+      if (document.readyState != 'loading') {
+        func();
+      } else {
+        document.addEventListener('DOMContentLoaded', func);
+      }
+    }
+    function t_onFuncLoad(funcName, okFunc, time) {
+      if (typeof window[funcName] === 'function') {
+        okFunc();
+      } else {
+        setTimeout(function () {
+          t_onFuncLoad(funcName, okFunc, time);
+        }, (time || 100));
+      }
+    } function t_throttle(fn, threshhold, scope) { return function () { fn.apply(scope || this, arguments); }; }</script>
+  <script src="./Lonf Flow Arbitrage_files/tilda-scripts-3.0.min.js.download" charset="utf-8" defer=""
+    onerror="this.loaderr=&#39;y&#39;;"></script>
+  <script src="./Lonf Flow Arbitrage_files/tilda-blocks-page39865698.min.js.download" charset="utf-8" async=""
+    onerror="this.loaderr=&#39;y&#39;;"></script>
+  <script src="./Lonf Flow Arbitrage_files/lazyload-1.3.min.js.download" charset="utf-8" async=""
+    onerror="this.loaderr=&#39;y&#39;;"></script>
+  <script src="./Lonf Flow Arbitrage_files/tilda-menu-1.0.min.js.download" charset="utf-8" async=""
+    onerror="this.loaderr=&#39;y&#39;;"></script>
+  <script src="./Lonf Flow Arbitrage_files/tilda-zero-1.1.min.js.download" charset="utf-8" async=""
+    onerror="this.loaderr=&#39;y&#39;;"></script>
+  <script src="./Lonf Flow Arbitrage_files/tilda-cards-1.0.min.js.download" charset="utf-8" async=""
+    onerror="this.loaderr=&#39;y&#39;;"></script>
+  <script src="./Lonf Flow Arbitrage_files/tilda-forms-1.0.min.js.download" charset="utf-8" async=""
+    onerror="this.loaderr=&#39;y&#39;;"></script>
+  <script src="./Lonf Flow Arbitrage_files/tilda-zero-forms-1.0.min.js.download" charset="utf-8" async=""
+    onerror="this.loaderr=&#39;y&#39;;"></script>
+  <script src="./Lonf Flow Arbitrage_files/tilda-skiplink-1.0.min.js.download" charset="utf-8" async=""
+    onerror="this.loaderr=&#39;y&#39;;"></script>
+  <script src="./Lonf Flow Arbitrage_files/tilda-events-1.0.min.js.download" charset="utf-8" async=""
+    onerror="this.loaderr=&#39;y&#39;;"></script>
+  <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
+  <script type="text/javascript">(function () {
+      if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent)) === false && typeof (sessionStorage) != 'undefined' && sessionStorage.getItem('visited') !== 'y' && document.visibilityState) {
+        var style = document.createElement('style');
+        style.type = 'text/css';
+        style.innerHTML = '@media screen and (min-width: 980px) {.t-records {opacity: 0;}.t-records_animated {-webkit-transition: opacity ease-in-out .2s;-moz-transition: opacity ease-in-out .2s;-o-transition: opacity ease-in-out .2s;transition: opacity ease-in-out .2s;}.t-records.t-records_visible {opacity: 1;}}';
+        document.getElementsByTagName('head')[0].appendChild(style);
+        function t_setvisRecs() {
+          var alr = document.querySelectorAll('.t-records');
+          Array.prototype.forEach.call(alr, function (el) {
+            el.classList.add("t-records_animated");
+          });
+          setTimeout(function () {
+            Array.prototype.forEach.call(alr, function (el) {
+              el.classList.add("t-records_visible");
+            });
+            sessionStorage.setItem("visited", "y");
+          }, 400);
+        }
+        document.addEventListener('DOMContentLoaded', t_setvisRecs);
+      }
+    })();</script>
+  <style type="text/css">
+    @media screen and (min-width: 980px) {
+      .t-records {
+        opacity: 0;
+      }
+
+      .t-records_animated {
+        -webkit-transition: opacity ease-in-out .2s;
+        -moz-transition: opacity ease-in-out .2s;
+        -o-transition: opacity ease-in-out .2s;
+        transition: opacity ease-in-out .2s;
+      }
+
+      .t-records.t-records_visible {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body class="t-body" style="margin:0;"><!--allrecords-->
+  <div id="allrecords" class="t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node"
+    data-tilda-project-id="7876076" data-tilda-page-id="39865698" data-tilda-page-alias="lfarbitrage"
+    data-tilda-formskey="6f3d600d9194200b55c5604c37876076" data-tilda-cookie="no" data-tilda-lazy="yes">
+    <div id="rec644874282" class="r t-rec" style="opacity: 1;" data-animationappear="off" data-record-type="360">
+      <!-- T360 -->
+      <style>
+        @media screen and (min-width: 980px) {
+          .t-records {
+            opacity: 0;
+          }
+
+          .t-records_animated {
+            -webkit-transition: opacity ease-in-out .5s;
+            -moz-transition: opacity ease-in-out .5s;
+            -o-transition: opacity ease-in-out .5s;
+            transition: opacity ease-in-out .5s;
+          }
+
+          .t-records.t-records_visible,
+          .t-records .t-records {
+            opacity: 1;
+          }
+        }
+      </style>
+      <script>t_onReady(function () {
+          var allRecords = document.querySelector('.t-records');
+          window.addEventListener('pageshow', function (event) {
+            if (event.persisted) {
+              allRecords.classList.add('t-records_visible');
+            }
+          });
+          var rec = document.querySelector('#rec644874282');
+          if (!rec) return;
+          rec.setAttribute('data-animationappear', 'off');
+          rec.style.opacity = '1';
+          allRecords.classList.add('t-records_animated');
+          setTimeout(function () {
+            allRecords.classList.add('t-records_visible');
+          }, 200);
+        });</script>
+      <script>t_onReady(function () {
+          var selects = 'button:not(.t-submit):not(.t835__btn_next):not(.t835__btn_prev):not(.t835__btn_result):not(.t862__btn_next):not(.t862__btn_prev):not(.t862__btn_result):not(.t854__news-btn):not(.t862__btn_next),' +
+            'a:not([href*="#"]):not(.carousel-control):not(.t-carousel__control):not(.t807__btn_reply):not([href^="#price"]):not([href^="javascript"]):not([href^="mailto"]):not([href^="tel"]):not([href^="link_sub"]):not(.js-feed-btn-show-more):not(.t367__opener):not([href^="https://www.dropbox.com/"])';
+          var elements = document.querySelectorAll(selects);
+          Array.prototype.forEach.call(elements, function (element) {
+            if (element.getAttribute('data-menu-submenu-hook')) return;
+            element.addEventListener('click', function (event) {
+              var goTo = this.getAttribute('href');
+              if (goTo !== null) {
+                var ctrl = event.ctrlKey;
+                var cmd = event.metaKey && navigator.platform.indexOf('Mac') !== -1;
+                if (!ctrl && !cmd) {
+                  var target = this.getAttribute('target');
+                  if (target !== '_blank') {
+                    event.preventDefault();
+                    var allRecords = document.querySelector('.t-records');
+                    if (allRecords) {
+                      allRecords.classList.remove('t-records_visible');
+                    }
+                    setTimeout(function () {
+                      window.location = goTo;
+                    }, 500);
+                  }
+                }
+              }
+            });
+          });
+        });</script>
+    </div>
+    <div id="rec644874283" class="r t-rec r_showed r_anim" style=" " data-record-type="394">
+      <style>
+        #allrecords .t-text a,
+        #allrecords .t-descr a,
+        #allrecords .t-heading a:not(.t-feed__link),
+        #allrecords .t-title a,
+        #allrecords .t-impact-text a,
+        #allrecords .t-text-impact a,
+        #allrecords .t-name:not(.t-feed__parts-switch-btn) a:not(.t794__typo):not(.t-menusub__link-item):not(.t-card__link):not(.t-feed__link),
+        #allrecords .t-uptitle a {
+          color: #0056d3;
+          font-weight: inherit;
+          border-bottom: 0px solid #ff3503;
+          -webkit-box-shadow: inset 0px 0px 0px #ff3503;
+          -moz-box-shadow: inset 0px 0px 0px #ff3503;
+          box-shadow: inset 0px 0px 0px #ff3503;
+        }
+      </style>
+    </div>
+    <div id="rec644874284" class="r t-rec t-rec_pt_0" style="padding-top:0px; " data-animationappear="off"
+      data-record-type="257"><!-- T228 -->
+      <div id="nav644874284marker"></div>
+      <div id="nav644874284" class="t228 t228__positionstatic " style="background-color: rgba(255,255,255,1); "
+        data-bgcolor-hex="#ffffff" data-bgcolor-rgba="rgba(255,255,255,1)" data-navmarker="nav644874284marker"
+        data-appearoffset="" data-bgopacity-two="" data-menushadow="" data-bgopacity="1" data-menu-items-align="right"
+        data-menu="yes">
+        <div class="t228__maincontainer t228__c12collumns" style="">
+          <div class="t228__padding40px"></div>
+          <div class="t228__leftside">
+            <div class="t228__leftcontainer"><a href="http://danielstildaportfollio.tilda.ws/lfarbitrage#"
+                class="t228__imgwrapper" style="color:#000000;">
+                <div class="t228__logo t-title" field="title" style="color:#000000;"><span
+                    style="color: rgb(0, 86, 211);">LF arbitrage</span></div>
+              </a></div>
+          </div>
+          <div class="t228__centerside t228__menualign_right">
+            <nav class="t228__centercontainer" aria-label="Основная навигация">
+              <ul role="list" class="t228__list t-menu__list">
+                <li class="t228__list_item" style="padding:0 15px 0 0;"><a class="t-menu__link-item"
+                    href="http://danielstildaportfollio.tilda.ws/lfarbitrage" data-menu-submenu-hook=""
+                    data-menu-item-number="1" style="color:#000000;font-weight:400;">Тарифы</a></li>
+                <li class="t228__list_item" style="padding:0 15px;"><a class="t-menu__link-item"
+                    href="http://danielstildaportfollio.tilda.ws/lfarbitrage" data-menu-submenu-hook=""
+                    data-menu-item-number="2" style="color:#000000;font-weight:400;">Возможности</a></li>
+                <li class="t228__list_item" style="padding:0 0 0 15px;"><a class="t-menu__link-item"
+                    href="http://danielstildaportfollio.tilda.ws/lfarbitrage" data-menu-submenu-hook=""
+                    data-menu-item-number="3" style="color:#000000;font-weight:400;">Войти</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="t228__rightside">
+            <div class="t228__rightcontainer">
+              <div class="t228__right_buttons">
+                <div class="t228__right_buttons_wrap">
+                  <div class="t228__right_buttons_but"><a href="http://danielstildaportfollio.tilda.ws/lfarbitrage"
+                      target="" class="t-btn t-btn_md " style="color:#000000;border:2px solid #0056d3;font-weight:400;">
+                      <table role="presentation" style="width:100%; height:100%;">
+                        <tbody>
+                          <tr>
+                            <td>Регистрация</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t228__padding40px"></div>
+        </div>
+      </div>
+      <style>
+        @media screen and (max-width: 980px) {
+          #rec644874284 .t228__leftcontainer {
+            padding: 20px;
+          }
+
+          #rec644874284 .t228__imglogo {
+            padding: 20px 0;
+          }
+
+          #rec644874284 .t228 {
+            position: static;
+          }
+        }
+      </style>
+      <script>window.addEventListener('resize', t_throttle(function () {
+          t_onFuncLoad('t_menu__setBGcolor', function () {
+            t_menu__setBGcolor('644874284', '.t228');
+          });
+        }));
+        t_onReady(function () {
+          t_onFuncLoad('t_menu__highlightActiveLinks', function () {
+            t_menu__highlightActiveLinks('.t228__list_item a');
+          });
+          t_onFuncLoad('t228__init', function () {
+            t228__init('644874284');
+          });
+          t_onFuncLoad('t_menu__setBGcolor', function () {
+            t_menu__setBGcolor('644874284', '.t228');
+          });
+          t_onFuncLoad('t_menu__interactFromKeyboard', function () {
+            t_menu__interactFromKeyboard('644874284');
+          });
+        });</script><!--[if IE 8]><style>#rec644874284 .t228 {
 filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9ffffff', endColorstr='#D9ffffff');
-}</style><![endif]--><style>#rec644874284 .t-menu__link-item{
-}
-@supports (overflow:-webkit-marquee) and (justify-content:inherit)
-{
-#rec644874284 .t-menu__link-item,
-#rec644874284 .t-menu__link-item.t-active {
-opacity: 1 !important;
-}
-}</style></div><div id="rec644874285" class="r t-rec t-rec_pt_0" style="padding-top:0px; " data-animationappear="off" data-record-type="396"><!-- T396 --><style>#rec644874285 .t396__artboard {height: 560px; background-color: #ffffff; }#rec644874285 .t396__filter {height: 560px; }#rec644874285 .t396__carrier{height: 560px;background-position: center center;background-attachment: scroll;background-size: cover;background-repeat: no-repeat;}@media screen and (max-width: 1199px) {#rec644874285 .t396__artboard {height: 460px;}#rec644874285 .t396__filter {height: 460px;}#rec644874285 .t396__carrier {height: 460px;background-attachment: scroll;}}@media screen and (max-width: 959px) {#rec644874285 .t396__artboard {height: 760px;}#rec644874285 .t396__filter {height: 760px;}#rec644874285 .t396__carrier {height: 760px;background-attachment: scroll;}}@media screen and (max-width: 639px) {#rec644874285 .t396__artboard {height: 690px;}#rec644874285 .t396__filter {height: 690px;}#rec644874285 .t396__carrier {height: 690px;background-attachment: scroll;}}@media screen and (max-width: 479px) {#rec644874285 .t396__artboard {height: 580px;}#rec644874285 .t396__filter {height: 580px;}#rec644874285 .t396__carrier {height: 580px;background-attachment: scroll;}} #rec644874285 .tn-elem[data-elem-id="1536161772606"] { color: #000000; z-index: 1; top: 150px;left: calc(50% - 600px + 21px);width: 490px;}#rec644874285 .tn-elem[data-elem-id="1536161772606"] .tn-atom { color: #000000; font-size: 35px; font-family: 'Open Sans',Arial,sans-serif; line-height: 1.35; font-weight: 500; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {#rec644874285 .tn-elem[data-elem-id="1536161772606"] {top: 123px;left: calc(50% - 480px + 11px);width: 390px;}#rec644874285 .tn-elem[data-elem-id="1536161772606"] .tn-atom { font-size: 29px; }}@media screen and (max-width: 959px) {#rec644874285 .tn-elem[data-elem-id="1536161772606"] {top: 90px;left: calc(50% - 320px + 91px);width: 460px;}#rec644874285 .tn-elem[data-elem-id="1536161772606"] {text-align: center;}}@media screen and (max-width: 639px) {#rec644874285 .tn-elem[data-elem-id="1536161772606"] {top: 77px;left: calc(50% - 240px + 31px);width: 420px;}#rec644874285 .tn-elem[data-elem-id="1536161772606"] .tn-atom { font-size: 30px; }}@media screen and (max-width: 479px) {#rec644874285 .tn-elem[data-elem-id="1536161772606"] {top: 70px;left: calc(50% - 160px + 11px);width: 300px;}#rec644874285 .tn-elem[data-elem-id="1536161772606"] .tn-atom { font-size: 22px; }} #rec644874285 .tn-elem[data-elem-id="1536161805326"] { color: #000000; z-index: 2; top: 259px;left: calc(50% - 600px + 21px);width: 470px;}#rec644874285 .tn-elem[data-elem-id="1536161805326"] .tn-atom { color: #000000; font-size: 16px; font-family: 'Open Sans',Arial,sans-serif; line-height: 1.5; font-weight: 400; opacity: 0.45; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {#rec644874285 .tn-elem[data-elem-id="1536161805326"] {top: 213px;left: calc(50% - 480px + 11px);width: 380px;}#rec644874285 .tn-elem[data-elem-id="1536161805326"] .tn-atom { font-size: 13px; line-height: 1.6; }}@media screen and (max-width: 959px) {#rec644874285 .tn-elem[data-elem-id="1536161805326"] {top: 181px;left: calc(50% - 320px + 105px);width: 430px;}#rec644874285 .tn-elem[data-elem-id="1536161805326"] {text-align: center;}}@media screen and (max-width: 639px) {#rec644874285 .tn-elem[data-elem-id="1536161805326"] {top: 171px;left: calc(50% - 240px + 48px);width: 380px;}#rec644874285 .tn-elem[data-elem-id="1536161805326"] .tn-atom { font-size: 13px; }}@media screen and (max-width: 479px) {#rec644874285 .tn-elem[data-elem-id="1536161805326"] {top: 139px;left: calc(50% - 160px + 16px);width: 290px;}#rec644874285 .tn-elem[data-elem-id="1536161805326"] .tn-atom { font-size: 12px; }} #rec644874285 .tn-elem[data-elem-id="1536161848355"] { z-index: 3; top: 352px;left: calc(50% - 600px + 21px);width: 460px;}#rec644874285 .tn-elem[data-elem-id="1536161848355"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {#rec644874285 .tn-elem[data-elem-id="1536161848355"] {top: 290px;left: calc(50% - 480px + 11px);width: 370px;}}@media screen and (max-width: 959px) {#rec644874285 .tn-elem[data-elem-id="1536161848355"] {top: 265px;left: calc(50% - 320px + 136px);}}@media screen and (max-width: 639px) {#rec644874285 .tn-elem[data-elem-id="1536161848355"] {top: 254px;left: calc(50% - 240px + 71px);width: 340px;}}@media screen and (max-width: 479px) {#rec644874285 .tn-elem[data-elem-id="1536161848355"] {top: 230px;left: calc(50% - 160px + 11px);width: 300px;}} #rec644874285 .tn-elem[data-elem-id="1536162004763"] { z-index: 4; top: 62px;left: calc(50% - 600px + 585px);width: 600px;}#rec644874285 .tn-elem[data-elem-id="1536162004763"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {#rec644874285 .tn-elem[data-elem-id="1536162004763"] {top: 60px;left: calc(50% - 480px + 472px);width: 480px;}}@media screen and (max-width: 959px) {#rec644874285 .tn-elem[data-elem-id="1536162004763"] {top: 380px;left: calc(50% - 320px + 81px);}}@media screen and (max-width: 639px) {#rec644874285 .tn-elem[data-elem-id="1536162004763"] {top: 371px;left: calc(50% - 240px + 41px);width: 400px;}}@media screen and (max-width: 479px) {#rec644874285 .tn-elem[data-elem-id="1536162004763"] {top: 333px;left: calc(50% - 160px + 11px);width: 300px;}}</style><div class="t396"><div class="t396__artboard rendered" data-artboard-recid="644874285" data-artboard-screens="320,480,640,960,1200" data-artboard-height="560" data-artboard-valign="center" data-artboard-height-res-320="580" data-artboard-height-res-480="690" data-artboard-height-res-640="760" data-artboard-height-res-960="460" data-artboard-proxy-min-offset-top="0" data-artboard-proxy-min-height="560" data-artboard-proxy-max-height="560"><div class="t396__carrier" data-artboard-recid="644874285"></div><div class="t396__filter" data-artboard-recid="644874285"></div><div class="t396__elem tn-elem tn-elem__6448742851536161772606" data-elem-id="1536161772606" data-elem-type="text" data-field-top-value="150" data-field-left-value="21" data-field-width-value="490" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-field-top-res-320-value="70" data-field-left-res-320-value="11" data-field-width-res-320-value="300" data-field-top-res-480-value="77" data-field-left-res-480-value="31" data-field-width-res-480-value="420" data-field-top-res-640-value="90" data-field-left-res-640-value="91" data-field-width-res-640-value="460" data-field-top-res-960-value="123" data-field-left-res-960-value="11" data-field-width-res-960-value="390" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 150px; left: 52.5px; width: 490px;"><div class="tn-atom" field="tn_text_1536161772606" style="line-height: 47px;">Увеличьте прибыльность вашей торговли</div> </div><div class="t396__elem tn-elem tn-elem__6448742851536161805326" data-elem-id="1536161805326" data-elem-type="text" data-field-top-value="259" data-field-left-value="21" data-field-width-value="470" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-field-top-res-320-value="139" data-field-left-res-320-value="16" data-field-width-res-320-value="290" data-field-top-res-480-value="171" data-field-left-res-480-value="48" data-field-width-res-480-value="380" data-field-top-res-640-value="181" data-field-left-res-640-value="105" data-field-width-res-640-value="430" data-field-top-res-960-value="213" data-field-left-res-960-value="11" data-field-width-res-960-value="380" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 259px; left: 52.5px; width: 470px;"><div class="tn-atom" field="tn_text_1536161805326" style="line-height: 24px;">Новый инструмент для арбитражной торговли криптовалютой</div> </div><div class="t396__elem tn-elem tn-elem__6448742851536161848355 zero-form-rendered" data-elem-id="1536161848355" data-elem-type="form" data-field-top-value="352" data-field-left-value="21" data-field-width-value="460" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-field-top-res-320-value="230" data-field-left-res-320-value="11" data-field-width-res-320-value="300" data-field-top-res-480-value="254" data-field-left-res-480-value="71" data-field-width-res-480-value="340" data-field-top-res-640-value="265" data-field-left-res-640-value="136" data-field-top-res-960-value="290" data-field-left-res-960-value="11" data-field-width-res-960-value="370" data-field-inputpos-value="h" data-field-inputfontfamily-value="Open Sans" data-field-inputfontsize-value="15" data-field-inputfontweight-value="400" data-field-inputcolor-value="#000" data-field-inputbgcolor-value="#fff" data-field-inputbordercolor-value="#a5b9d9" data-field-inputbordersize-value="1" data-field-inputheight-value="50" data-field-inputmargbottom-value="20" data-field-inputtitlefontsize-value="16" data-field-inputtitlefontweight-value="400" data-field-inputtitlecolor-value="#000" data-field-inputtitlemargbottom-value="5" data-field-inputelsfontweight-value="400" data-field-inputelsfontsize-value="14" data-field-buttontitle-value="Зарегистрироваться" data-field-buttoncolor-value="#fff" data-field-buttonbgcolor-value="#0056d3" data-field-buttonwidth-value="190" data-field-buttonheight-value="50" data-field-buttonfontsize-value="14" data-field-buttonfontweight-value="600" data-field-inputfontsize-res-320-value="11" data-field-inputheight-res-320-value="40" data-field-buttonwidth-res-320-value="140" data-field-buttonheight-res-320-value="40" data-field-buttonfontsize-res-320-value="10" data-field-inputfontsize-res-480-value="13" data-field-buttonwidth-res-480-value="165" data-field-buttonfontsize-res-480-value="12" data-field-inputfontsize-res-960-value="14" data-field-inputheight-res-960-value="45" data-field-buttonwidth-res-960-value="170" data-field-buttonheight-res-960-value="45" data-field-buttonfontsize-res-960-value="13" data-fields="width,top,left,inputs,container,axisx,axisy,widthunits,leftunits,topunits" style="width: 460px; left: 52.5px; top: 352px;"><div class="tn-atom tn-atom__form"><style id="t-zero-placeholder-644874285-1536161848355">#rec644874285 [data-elem-id="1536161848355"] input::-webkit-input-placeholder{color:#000;opacity:0.5;}#rec644874285 [data-elem-id="1536161848355"] input::-moz-placeholder{color:#000;opacity:0.5;}#rec644874285 [data-elem-id="1536161848355"] input:-moz-placeholder{color:#000;opacity:0.5;}#rec644874285 [data-elem-id="1536161848355"] input:-ms-input-placeholder{color:#000;opacity:0.5;}#rec644874285 [data-elem-id="1536161848355"] textarea::-webkit-input-placeholder{color:#000;opacity:0.5;}#rec644874285 [data-elem-id="1536161848355"] textarea::-moz-placeholder{color:#000;opacity:0.5;}#rec644874285 [data-elem-id="1536161848355"] textarea:-moz-placeholder{color:#000;opacity:0.5;}#rec644874285 [data-elem-id="1536161848355"] textarea:-ms-input-placeholder{color:#000;opacity:0.5;}</style><style id="t-zero-form-c-styles">.tn-atom .t-input-block {position: relative;}</style><form class="t-form t-form_inputs-total_1 tn-form_horiz js-form-proccess" id="form644874285" name="form644874285" action="https://forms.tildacdn.com/procces/" method="POST" role="form" data-formactiontype="2" data-inputbox=".t-input-group" data-success-callback="t396_onSuccess" data-success-popup="y" data-error-popup="y"><div class="js-successbox t-form__successbox t-text t-text_sm" style="display: none;"></div><div class="t-form__inputsbox"><div class="t-input-group t-input-group_em" data-input-lid="1531306243545" style="margin-bottom: 20px;"><div class="t-input-block"><input aria-label="email" type="text" name="email" class="t-input js-tilda-rule t-input-inline-styles" data-tilda-rule="email" placeholder="mail@example.com" style="color: rgb(0, 0, 0); border: 1px solid rgb(165, 185, 217); background-color: rgb(255, 255, 255); font-size: 15px; font-weight: 400; height: 50px;"><div class="t-input-error"></div></div></div><div class="t-form__errorbox-middle"><div class="js-errorbox-all t-form__errorbox-wrapper" style="display: none;"><div class="t-form__errorbox-text t-text_xs t-text"><p class="t-form__errorbox-item js-rule-error js-rule-error-all"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-req"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-email"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-name"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-phone"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-string"></p></div><div class="tn-form__errorbox-close js-errorbox-close"><div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-left"></div><div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-right"></div></div></div></div><div class="tn-form__submit"><button type="submit" class="t-submit" style="padding: 0px 15px; display: block; width: 190px; font-weight: 600; height: 50px;">Зарегистрироваться</button></div></div><div class="t-form__errorbox-bottom"><div class="js-errorbox-all t-form__errorbox-wrapper" style="display: none;"><div class="t-form__errorbox-text t-text_xs t-text"><p class="t-form__errorbox-item js-rule-error js-rule-error-all"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-req"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-email"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-name"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-phone"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-string"></p></div><div class="tn-form__errorbox-close js-errorbox-close"><div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-left"></div><div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-right"></div></div></div></div><div style="position: absolute; left: -5000px; bottom: 0px; display: none;"><input type="text" name="form-spec-comments" class="js-form-spec-comments" tabindex="-1"></div></form><style id="t-zero-form-btn-styles-1536161848355-644874285">#rec644874285 [data-elem-id="1536161848355"] .t-submit{color:#fff;border-radius:0px;font-size:14px;font-family:TildaSans, Arial, sans-serif;cursor:pointer;background-color: #0056d3;}</style></div><!--googleoff: all--><!--noindex--><div data-nosnippet="true" class="tn-atom__inputs-wrapp" style="display:none;"><textarea class="tn-atom__inputs-textarea">{"0":{"lid":"1531306243545","ls":"10","loff":"","li_type":"em","li_name":"email","li_ph":"mail@example.com","li_nm":"email"}}</textarea></div><!--/noindex--><!--googleon: all--></div><div class="t396__elem tn-elem tn-elem__6448742851536162004763" data-elem-id="1536162004763" data-elem-type="image" data-field-top-value="62" data-field-left-value="585" data-field-width-value="600" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-field-top-res-320-value="333" data-field-left-res-320-value="11" data-field-width-res-320-value="300" data-field-top-res-480-value="371" data-field-left-res-480-value="41" data-field-width-res-480-value="400" data-field-top-res-640-value="380" data-field-left-res-640-value="81" data-field-top-res-960-value="60" data-field-left-res-960-value="472" data-field-width-res-960-value="480" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 616.5px; top: 62px; width: 600px;"><div class="tn-atom"><img class="tn-atom__img t-img loaded" data-original="https://static.tildacdn.info/tild3962-3937-4139-b461-353865663838/obnovleniya-monetory.png" alt="" imgfield="tn_img_1536162004763" src="./Lonf Flow Arbitrage_files/obnovleniya-monetory.png"></div></div></div> </div> <script>t_onReady(function () {
-t_onFuncLoad('t396_init', function () {
-t396_init('644874285');
-});
-});</script><!-- /T396 --></div><div id="rec644874287" class="r t-rec t-rec_pt_90 t-rec_pb_150" style="padding-top:90px;padding-bottom:150px; " data-animationappear="off" data-record-type="843"><!-- t843 --><div class="t843"><div class="t-card__container t-container"><div class="t843__colwrapper t-col t-col_12 "><div class="t843__col t-col t-col_6 t843__mobileimg"><div class="t843__blockimg t-bgimg" bgimgfield="li_img__1531132449692" data-original="https://static.tildacdn.info/tild6638-6364-4365-b331-376439623333/Arbitration-between-.png" data-image-width="550" data-image-height="400" style="background-image: url(&quot;https://static.tildacdn.info/tild6638-6364-4365-b331-376439623333/-/resizeb/20x/Arbitration-between-.png&quot;); padding-bottom: 72.7273%;" itemscope="" itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.info/tild6638-6364-4365-b331-376439623333/Arbitration-between-.png"></div></div><div class="t843__col t-col t-col_6 t843__leftcol t843__desktopimg"><div class="t843__imgwrapper" style="max-width:550px;"><div class="t843__blockimg t-bgimg loaded" data-original="https://static.tildacdn.info/tild6638-6364-4365-b331-376439623333/Arbitration-between-.png" bgimgfield="li_img__1531132449692" data-image-width="550" data-image-height="400" style="background-image: url(&quot;https://thumb.tildacdn.com/tild6638-6364-4365-b331-376439623333/-/format/webp/Arbitration-between-.png&quot;); padding-bottom: 72.7273%;" itemscope="" itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.info/tild6638-6364-4365-b331-376439623333/Arbitration-between-.png"></div></div></div><div class="t843__col t-col t-col_6 t843__rightcol"><div class="t843__textwrapper t-align_left" style="max-width: 450px; height: 400px;"><div class="t843__content t-valign_middle"><div class="t843__box"><div class="t-card__title t-heading t-heading_xs" id="cardtitle_644874287" field="li_title__1531132449692" style="font-size:36px;font-weight:500;">Управление прибылью</div><div class="t-card__descr t-descr t-descr_sm" field="li_descr__1531132449692" style="font-size:20px;">Фильтруйте список отслеживаемых бирж в зависимости от прибыли, на которую вы рассчитываете.</div></div></div></div></div><div class="t843__separator t-clear" style="margin-bottom:20px;"></div><div class="t843__col t-col t-col_6 t843__mobileimg"><div class="t843__blockimg t-bgimg" bgimgfield="li_img__1531132486185" data-original="https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/1082187cb9984c084ff4.jpg" data-image-width="550" data-image-height="400" style="background-image: url(&quot;https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/-/resizeb/20x/1082187cb9984c084ff4.jpg&quot;); padding-bottom: 72.7273%;" itemscope="" itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/1082187cb9984c084ff4.jpg"></div></div><div class="t843__col t-col t-col_6 t843__leftcol"><div class="t843__textwrapper t-align_left" style="max-width: 450px; height: 400px;"><div class="t843__content t-valign_middle"><div class="t843__box"><div class="t-card__title t-heading t-heading_xs" id="cardtitle_644874287" field="li_title__1531132486185" style="font-size:36px;font-weight:500;">Управление валютой</div><div class="t-card__descr t-descr t-descr_sm" field="li_descr__1531132486185" style="font-size:20px;">Следите за интересующими вас криптовалютными парами, чтобы не упустить возможность заработать.</div></div></div></div></div><div class="t843__col t-col t-col_6 t843__rightcol t843__desktopimg"><div class="t843__imgwrapper" style="max-width:550px;"><div class="t843__blockimg t-bgimg" bgimgfield="li_img__1531132486185" data-original="https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/1082187cb9984c084ff4.jpg" data-image-width="550" data-image-height="400" style="background-image: url(&quot;https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/-/resizeb/20x/1082187cb9984c084ff4.jpg&quot;); padding-bottom: 72.7273%;" itemscope="" itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/1082187cb9984c084ff4.jpg"></div></div></div><div class="t843__separator t-clear" style="margin-bottom:20px;"></div><div class="t843__col t-col t-col_6 t843__mobileimg"><div class="t843__blockimg t-bgimg" bgimgfield="li_img__1531132468147" data-original="https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/756693571015298.jpg" data-image-width="550" data-image-height="400" style="background-image: url(&quot;https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/-/resizeb/20x/756693571015298.jpg&quot;); padding-bottom: 72.7273%;" itemscope="" itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/756693571015298.jpg"></div></div><div class="t843__col t-col t-col_6 t843__leftcol t843__desktopimg"><div class="t843__imgwrapper" style="max-width:550px;"><div class="t843__blockimg t-bgimg" data-original="https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/756693571015298.jpg" bgimgfield="li_img__1531132468147" data-image-width="550" data-image-height="400" style="background-image: url(&quot;https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/-/resizeb/20x/756693571015298.jpg&quot;); padding-bottom: 72.7273%;" itemscope="" itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/756693571015298.jpg"></div></div></div><div class="t843__col t-col t-col_6 t843__rightcol"><div class="t843__textwrapper t-align_left" style="max-width: 450px; height: 400px;"><div class="t843__content t-valign_middle"><div class="t843__box"><div class="t-card__title t-heading t-heading_xs" id="cardtitle_644874287" field="li_title__1531132468147" style="font-size:36px;font-weight:500;">Выбирайте биржи</div><div class="t-card__descr t-descr t-descr_sm" field="li_descr__1531132468147" style="font-size:20px;">Сканнер позволяет выбирать интересующие вас биржи, для повышения удобства и снижения рисков вашей торговли.</div></div></div></div></div></div></div></div><script type="text/javascript">t_onReady(function () {
-t_onFuncLoad('t843_init', function () {
-t843_init('644874287');
-});
-});</script></div><div id="rec644874288" class="r t-rec t-rec_pt_135 t-rec_pb_165" style="padding-top:135px;padding-bottom:165px;background-color:#f4f7f9; " data-animationappear="off" data-record-type="858" data-bg-color="#f4f7f9"><!-- t858 --><div class="t858"><div class="t-section__container t-container"><div class="t-col t-col_12"><div class="t-section__topwrapper t-align_center"><div class="t-section__title t-title t-title_xs" field="btitle"><span style="font-weight: 500;">Мы поможем вам торговать более эффективно</span></div> <div class="t-section__descr t-descr t-descr_xl t-margin_auto" field="bdescr">Мы предлагаем вам полный сет инструментов для отслеживания лучших торговых связок.</div> </div></div></div><div class="t858__container t-card__container t-container" data-columns-in-row="3"><div class="t858__col t-card__col t-card__col_withoutbtn t-col t-col_4 t-align_left"><div class="t858__inner-col" style="background-color: rgb(255, 255, 255); border-radius: 7px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px; height: 404px;"><div class="t858__wrap"><div class="t858__wrap_top"><div class="t858__bgimg t-bgimg" bgimgfield="li_img__1533046438146" data-original="https://static.tildacdn.info/tild3764-6561-4736-b438-343035656339/template_illustratio.svg" style="width:60px;height:60px;margin-bottom:60px;background-image:url(&#39;https://static.tildacdn.info/tild3764-6561-4736-b438-343035656339/template_illustratio.svg&#39;);" itemscope="" itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.info/tild3764-6561-4736-b438-343035656339/template_illustratio.svg"></div></div><div class="t858__wrap_bottom"><div class="t-card__title t-name t-name_lg t858__bottommargin" field="li_title__1533046438146">Работайте на любом устройстве<br></div><div class="t-card__descr t-descr t-descr_sm" field="li_descr__1533046438146">Интерфейс LF arbitrage адаптивный. Теперь вы можете торговать вне зависимости от вашего местоположения.</div><style> #rec644874288 .t-card__title { font-weight: 500; }</style></div></div></div></div><div class="t858__col t-card__col t-card__col_withoutbtn t-col t-col_4 t-align_left"><div class="t858__inner-col" style="background-color: rgb(255, 255, 255); border-radius: 7px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px; height: 404px;"><div class="t858__wrap"><div class="t858__wrap_top"><div class="t858__bgimg t-bgimg" bgimgfield="li_img__1536162675541" data-original="https://static.tildacdn.info/tild6566-3966-4666-b834-323466623831/template_illustratio.svg" style="width:60px;height:60px;margin-bottom:60px;background-image:url(&#39;https://static.tildacdn.info/tild6566-3966-4666-b834-323466623831/template_illustratio.svg&#39;);" itemscope="" itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.info/tild6566-3966-4666-b834-323466623831/template_illustratio.svg"></div></div><div class="t858__wrap_bottom"><div class="t-card__title t-name t-name_lg t858__bottommargin" field="li_title__1536162675541">Используйте понятный интерфейс</div><div class="t-card__descr t-descr t-descr_sm" field="li_descr__1536162675541">Мы разработали интуитивный и простой интерфейс, к которому можно легко привыкнуть за минимальное количество времени.<br></div><style> #rec644874288 .t-card__title { font-weight: 500; }</style></div></div></div></div><div class="t858__col t-card__col t-card__col_withoutbtn t-col t-col_4 t-align_left"><div class="t858__inner-col" style="background-color: rgb(255, 255, 255); border-radius: 7px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px; height: 404px;"><div class="t858__wrap"><div class="t858__wrap_top"><div class="t858__bgimg t-bgimg" bgimgfield="li_img__1536162664682" data-original="https://static.tildacdn.info/tild3133-3162-4761-b131-356137626465/template_illustratio.svg" style="width:60px;height:60px;margin-bottom:60px;background-image:url(&#39;https://static.tildacdn.info/tild3133-3162-4761-b131-356137626465/template_illustratio.svg&#39;);" itemscope="" itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.info/tild3133-3162-4761-b131-356137626465/template_illustratio.svg"></div></div><div class="t858__wrap_bottom"><div class="t-card__title t-name t-name_lg t858__bottommargin" field="li_title__1536162664682">Работайте в любой точке планеты</div><div class="t-card__descr t-descr t-descr_sm" field="li_descr__1536162664682">Вы часто перемещаетесь по миру? Сохраняйте связь с рынками вне зависимости от места положения и реагируйте своевременно, не упуская возможностей.</div><style> #rec644874288 .t-card__title { font-weight: 500; }</style></div></div></div></div><div class="t-clear t858__separator"></div> <div class="t858__col t-card__col t-card__col_withoutbtn t-col t-col_4 t-align_left"><div class="t858__inner-col" style="background-color: rgb(255, 255, 255); border-radius: 7px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px; height: 346px;"><div class="t858__wrap"><div class="t858__wrap_top"><div class="t858__bgimg t-bgimg" bgimgfield="li_img__1533046478108" data-original="https://static.tildacdn.info/tild6438-3565-4536-b066-363138306334/template_illustratio.svg" style="width:60px;height:60px;margin-bottom:60px;background-image:url(&#39;https://static.tildacdn.info/tild6438-3565-4536-b066-363138306334/template_illustratio.svg&#39;);" itemscope="" itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.info/tild6438-3565-4536-b066-363138306334/template_illustratio.svg"></div></div><div class="t858__wrap_bottom"><div class="t-card__title t-name t-name_lg t858__bottommargin" field="li_title__1533046478108">Держите руку на пульсе</div><div class="t-card__descr t-descr t-descr_sm" field="li_descr__1533046478108">Регулярное обновление связи с биржами позволяет нам предоставлять актуальную информацию, которая не позволит вам потерять ваши деньги.</div><style> #rec644874288 .t-card__title { font-weight: 500; }</style></div></div></div></div><div class="t858__col t-card__col t-card__col_withoutbtn t-col t-col_4 t-align_left"><div class="t858__inner-col" style="background-color: rgb(255, 255, 255); border-radius: 7px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px; height: 346px;"><div class="t858__wrap"><div class="t858__wrap_top"><div class="t858__bgimg t-bgimg" bgimgfield="li_img__1536162667885" data-original="https://static.tildacdn.info/tild3234-3433-4166-a539-636161396563/template_illustratio.svg" style="width:60px;height:60px;margin-bottom:60px;background-image:url(&#39;https://static.tildacdn.info/tild3234-3433-4166-a539-636161396563/template_illustratio.svg&#39;);" itemscope="" itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.info/tild3234-3433-4166-a539-636161396563/template_illustratio.svg"></div></div><div class="t858__wrap_bottom"><div class="t-card__title t-name t-name_lg t858__bottommargin" field="li_title__1536162667885">Используйте интеграции<br></div><div class="t-card__descr t-descr t-descr_sm" field="li_descr__1536162667885">Интегрируйте ваши торговые системы в наш сканнер с помощью API и других сервисов.</div><style> #rec644874288 .t-card__title { font-weight: 500; }</style></div></div></div></div></div></div><script type="text/javascript">t_onReady(function () {
-t_onFuncLoad('t858_init', function () {
-t858_init('644874288');
-});
-});</script></div><div id="rec644874290" class="r t-rec t-rec_pt_0" style="padding-top:0px; " data-animationappear="off" data-record-type="396"><!-- T396 --><style>#rec644874290 .t396__artboard {height: 640px; background-color: #f4f7f9; }#rec644874290 .t396__filter {height: 640px; }#rec644874290 .t396__carrier{height: 640px;background-position: center center;background-attachment: scroll;background-size: cover;background-repeat: no-repeat;}@media screen and (max-width: 1199px) {#rec644874290 .t396__artboard {height: 530px;}#rec644874290 .t396__filter {height: 530px;}#rec644874290 .t396__carrier {height: 530px;background-attachment: scroll;}}@media screen and (max-width: 959px) {#rec644874290 .t396__artboard {height: 540px;}#rec644874290 .t396__filter {height: 540px;}#rec644874290 .t396__carrier {height: 540px;background-attachment: scroll;}}@media screen and (max-width: 639px) {#rec644874290 .t396__artboard {height: 620px;}#rec644874290 .t396__filter {height: 620px;}#rec644874290 .t396__carrier {height: 620px;background-attachment: scroll;}}@media screen and (max-width: 479px) {#rec644874290 .t396__artboard {height: 610px;}#rec644874290 .t396__filter {height: 610px;}#rec644874290 .t396__carrier {height: 610px;background-attachment: scroll;}} #rec644874290 .tn-elem[data-elem-id="1536161772606"] { color: #000000; text-align: center; z-index: 1; top: calc(320px - 0px + -94px);left: calc(50% - 345px + 0px);width: 690px;}#rec644874290 .tn-elem[data-elem-id="1536161772606"] .tn-atom { color: #000000; font-size: 42px; font-family: 'Open Sans',Arial,sans-serif; line-height: 1.2; font-weight: 500; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {#rec644874290 .tn-elem[data-elem-id="1536161772606"] {top: calc(320px - 0px + -83px);left: calc(50% - 345px + 0px);width: 570px;}#rec644874290 .tn-elem[data-elem-id="1536161772606"] .tn-atom { font-size: 36px; line-height: 1.25; }}@media screen and (max-width: 959px) {#rec644874290 .tn-elem[data-elem-id="1536161772606"] {top: calc(320px - 0px + -106px);left: calc(50% - 345px + -84px);width: 450px;}#rec644874290 .tn-elem[data-elem-id="1536161772606"] {text-align: left;}#rec644874290 .tn-elem[data-elem-id="1536161772606"] .tn-atom { font-size: 29px; }}@media screen and (max-width: 639px) {#rec644874290 .tn-elem[data-elem-id="1536161772606"] {top: calc(320px - 0px + 40px);left: calc(50% - 345px + 1px);}#rec644874290 .tn-elem[data-elem-id="1536161772606"] {text-align: center;}#rec644874290 .tn-elem[data-elem-id="1536161772606"] .tn-atom { font-size: 28px; }}@media screen and (max-width: 479px) {#rec644874290 .tn-elem[data-elem-id="1536161772606"] {top: calc(320px - 0px + 19px);left: calc(50% - 345px + 1px);width: 300px;}#rec644874290 .tn-elem[data-elem-id="1536161772606"] .tn-atom { font-size: 21px; line-height: 1.25; }} #rec644874290 .tn-elem[data-elem-id="1536161805326"] { color: #000000; text-align: center; z-index: 2; top: 300px;left: calc(50% - 310px + 0px);width: 620px;}#rec644874290 .tn-elem[data-elem-id="1536161805326"] .tn-atom { color: #000000; font-size: 18px; font-family: 'Open Sans',Arial,sans-serif; line-height: 1.6; font-weight: 400; opacity: 0.45; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {#rec644874290 .tn-elem[data-elem-id="1536161805326"] {top: 246px;left: calc(50% - 310px + 0px);width: 460px;}#rec644874290 .tn-elem[data-elem-id="1536161805326"] .tn-atom { font-size: 18px; }}@media screen and (max-width: 959px) {#rec644874290 .tn-elem[data-elem-id="1536161805326"] {top: 214px;left: calc(50% - 310px + -148px);width: 320px;}#rec644874290 .tn-elem[data-elem-id="1536161805326"] {text-align: left;}#rec644874290 .tn-elem[data-elem-id="1536161805326"] .tn-atom { font-size: 17px; }}@media screen and (max-width: 639px) {#rec644874290 .tn-elem[data-elem-id="1536161805326"] {top: 397px;left: calc(50% - 310px + 1px);}#rec644874290 .tn-elem[data-elem-id="1536161805326"] {text-align: center;}#rec644874290 .tn-elem[data-elem-id="1536161805326"] .tn-atom { font-size: 16px; }}@media screen and (max-width: 479px) {#rec644874290 .tn-elem[data-elem-id="1536161805326"] {top: 376px;left: calc(50% - 310px + 1px);width: 260px;}#rec644874290 .tn-elem[data-elem-id="1536161805326"] .tn-atom { font-size: 15px; line-height: 1.45; }} #rec644874290 .tn-elem[data-elem-id="1548409532328"] { z-index: 4; top: 48px;left: calc(50% - 600px + -166px);width: 370px;}#rec644874290 .tn-elem[data-elem-id="1548409532328"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {#rec644874290 .tn-elem[data-elem-id="1548409532328"] {top: 58px;left: calc(50% - 480px + -100px);width: 280px;}}@media screen and (max-width: 959px) {#rec644874290 .tn-elem[data-elem-id="1548409532328"] {top: -402px;left: calc(50% - 320px + 220px);width: 220px;}}@media screen and (max-width: 639px) {#rec644874290 .tn-elem[data-elem-id="1548409532328"] {top: -312px;left: calc(50% - 240px + 140px);}}@media screen and (max-width: 479px) {#rec644874290 .tn-elem[data-elem-id="1548409532328"] {top: -312px;left: calc(50% - 160px + 60px);}} #rec644874290 .tn-elem[data-elem-id="1548409534993"] { z-index: 5; top: 106px;left: calc(50% - 600px + 990px);width: 344px;}#rec644874290 .tn-elem[data-elem-id="1548409534993"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {#rec644874290 .tn-elem[data-elem-id="1548409534993"] {top: 86px;left: calc(50% - 480px + 800px);width: 264px;}}@media screen and (max-width: 959px) {#rec644874290 .tn-elem[data-elem-id="1548409534993"] {top: 216px;left: calc(50% - 320px + 400px);width: 224px;}}@media screen and (max-width: 639px) {#rec644874290 .tn-elem[data-elem-id="1548409534993"] {top: 64px;left: calc(50% - 240px + 144px);width: 174px;}}@media screen and (max-width: 479px) {#rec644874290 .tn-elem[data-elem-id="1548409534993"] {top: 68px;left: calc(50% - 160px + 74px);width: 154px;}} #rec644874290 .tn-elem[data-elem-id="1548414500699"] { z-index: 6; top: 387px;left: calc(50% - 600px + 319px);width: 560px;}#rec644874290 .tn-elem[data-elem-id="1548414500699"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {#rec644874290 .tn-elem[data-elem-id="1548414500699"] {top: 338px;left: calc(50% - 480px + 250px);width: 460px;}}@media screen and (max-width: 959px) {#rec644874290 .tn-elem[data-elem-id="1548414500699"] {top: 312px;left: calc(50% - 320px + 11px);width: 340px;}}@media screen and (max-width: 639px) {#rec644874290 .tn-elem[data-elem-id="1548414500699"] {top: 480px;left: calc(50% - 240px + 76px);width: 330px;}}@media screen and (max-width: 479px) {#rec644874290 .tn-elem[data-elem-id="1548414500699"] {top: 462px;left: calc(50% - 160px + 11px);width: 300px;}}</style><div class="t396"><div class="t396__artboard rendered" data-artboard-recid="644874290" data-artboard-screens="320,480,640,960,1200" data-artboard-height="640" data-artboard-valign="center" data-artboard-height-res-320="610" data-artboard-height-res-480="620" data-artboard-height-res-640="540" data-artboard-height-res-960="530" data-artboard-proxy-min-offset-top="0" data-artboard-proxy-min-height="640" data-artboard-proxy-max-height="640"><div class="t396__carrier" data-artboard-recid="644874290"></div><div class="t396__filter" data-artboard-recid="644874290"></div><div class="t396__elem tn-elem tn-elem__6448742901536161772606" data-elem-id="1536161772606" data-elem-type="text" data-field-top-value="-94" data-field-left-value="0" data-field-width-value="690" data-field-axisy-value="center" data-field-axisx-value="center" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-field-top-res-320-value="19" data-field-left-res-320-value="1" data-field-width-res-320-value="300" data-field-top-res-480-value="40" data-field-left-res-480-value="1" data-field-top-res-640-value="-106" data-field-left-res-640-value="-84" data-field-width-res-640-value="450" data-field-top-res-960-value="-83" data-field-left-res-960-value="0" data-field-width-res-960-value="570" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 175.5px; left: 286.5px; width: 690px;"><div class="tn-atom" field="tn_text_1536161772606" style="line-height: 50px;">Попробуйте использовать наш инструмент, это бесплатно</div> </div><div class="t396__elem tn-elem tn-elem__6448742901536161805326" data-elem-id="1536161805326" data-elem-type="text" data-field-top-value="300" data-field-left-value="0" data-field-width-value="620" data-field-axisy-value="top" data-field-axisx-value="center" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-field-top-res-320-value="376" data-field-left-res-320-value="1" data-field-width-res-320-value="260" data-field-top-res-480-value="397" data-field-left-res-480-value="1" data-field-top-res-640-value="214" data-field-left-res-640-value="-148" data-field-width-res-640-value="320" data-field-top-res-960-value="246" data-field-left-res-960-value="0" data-field-width-res-960-value="460" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 300px; left: 321.5px; width: 620px;"><div class="tn-atom" field="tn_text_1536161805326" style="line-height: 29px;">Срок пробного периода — 24 часа, кредитная карта не нужна</div> </div><div class="t396__elem tn-elem tn-elem__6448742901548409532328" data-elem-id="1548409532328" data-elem-type="image" data-field-top-value="48" data-field-left-value="-166" data-field-width-value="370" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-field-filewidth-value="427" data-field-fileheight-value="508" data-field-top-res-320-value="-312" data-field-left-res-320-value="60" data-field-top-res-480-value="-312" data-field-left-res-480-value="140" data-field-top-res-640-value="-402" data-field-left-res-640-value="220" data-field-width-res-640-value="220" data-field-top-res-960-value="58" data-field-left-res-960-value="-100" data-field-width-res-960-value="280" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: -134.5px; top: 48px; width: 370px;"><div class="tn-atom"><img class="tn-atom__img t-img" data-original="https://static.tildacdn.info/tild3337-6233-4635-a262-643162666261/template_illustratio.svg" alt="" imgfield="tn_img_1548409532328"></div></div><div class="t396__elem tn-elem tn-elem__6448742901548409534993" data-elem-id="1548409534993" data-elem-type="image" data-field-top-value="106" data-field-left-value="990" data-field-width-value="344" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-field-filewidth-value="334" data-field-fileheight-value="469" data-field-top-res-320-value="68" data-field-left-res-320-value="74" data-field-width-res-320-value="154" data-field-top-res-480-value="64" data-field-left-res-480-value="144" data-field-width-res-480-value="174" data-field-top-res-640-value="216" data-field-left-res-640-value="400" data-field-width-res-640-value="224" data-field-top-res-960-value="86" data-field-left-res-960-value="800" data-field-width-res-960-value="264" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 1021.5px; top: 106px; width: 344px;"><div class="tn-atom"><img class="tn-atom__img t-img" data-original="https://static.tildacdn.info/tild3966-3466-4636-a261-383137663332/template_illustratio.svg" alt="" imgfield="tn_img_1548409534993"></div></div><div class="t396__elem tn-elem tn-elem__6448742901548414500699 zero-form-rendered" data-elem-id="1548414500699" data-elem-type="form" data-field-top-value="387" data-field-left-value="319" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-field-top-res-320-value="462" data-field-left-res-320-value="11" data-field-width-res-320-value="300" data-field-top-res-480-value="480" data-field-left-res-480-value="76" data-field-width-res-480-value="330" data-field-top-res-640-value="312" data-field-left-res-640-value="11" data-field-width-res-640-value="340" data-field-top-res-960-value="338" data-field-left-res-960-value="250" data-field-width-res-960-value="460" data-field-inputpos-value="h" data-field-inputfontfamily-value="Open Sans" data-field-inputfontsize-value="16" data-field-inputfontweight-value="400" data-field-inputcolor-value="#000" data-field-inputbgcolor-value="#f4f7f9" data-field-inputbordercolor-value="#a5b9d9" data-field-inputbordersize-value="1" data-field-inputheight-value="50" data-field-inputmargbottom-value="20" data-field-inputtitlefontsize-value="16" data-field-inputtitlefontweight-value="400" data-field-inputtitlecolor-value="#000" data-field-inputtitlemargbottom-value="5" data-field-inputelsfontweight-value="400" data-field-inputelsfontsize-value="14" data-field-buttontitle-value="Начать" data-field-buttoncolor-value="#fff" data-field-buttonbgcolor-value="#0056d3" data-field-buttonwidth-value="160" data-field-buttonheight-value="50" data-field-buttonfontfamily-value="Open Sans" data-field-buttonfontsize-value="16" data-field-buttonfontweight-value="600" data-field-inputfontsize-res-320-value="14" data-field-inputradius-res-320-value="0" data-field-inputheight-res-320-value="40" data-field-buttonwidth-res-320-value="110" data-field-buttonheight-res-320-value="40" data-field-buttonfontsize-res-320-value="14" data-field-inputfontsize-res-640-value="15" data-field-inputheight-res-640-value="40" data-field-inputtitlefontsize-res-640-value="15" data-field-buttonwidth-res-640-value="130" data-field-buttonheight-res-640-value="40" data-field-buttonfontsize-res-640-value="14" data-field-inputheight-res-960-value="45" data-field-buttonwidth-res-960-value="140" data-field-buttonheight-res-960-value="45" data-field-buttonfontsize-res-960-value="15" data-fields="width,top,left,inputs,container,axisx,axisy,widthunits,leftunits,topunits" style="width: 560px; left: 350.5px; top: 387px;"><div class="tn-atom tn-atom__form"><style id="t-zero-placeholder-644874290-1548414500699">#rec644874290 [data-elem-id="1548414500699"] input::-webkit-input-placeholder{color:#000;opacity:0.5;}#rec644874290 [data-elem-id="1548414500699"] input::-moz-placeholder{color:#000;opacity:0.5;}#rec644874290 [data-elem-id="1548414500699"] input:-moz-placeholder{color:#000;opacity:0.5;}#rec644874290 [data-elem-id="1548414500699"] input:-ms-input-placeholder{color:#000;opacity:0.5;}#rec644874290 [data-elem-id="1548414500699"] textarea::-webkit-input-placeholder{color:#000;opacity:0.5;}#rec644874290 [data-elem-id="1548414500699"] textarea::-moz-placeholder{color:#000;opacity:0.5;}#rec644874290 [data-elem-id="1548414500699"] textarea:-moz-placeholder{color:#000;opacity:0.5;}#rec644874290 [data-elem-id="1548414500699"] textarea:-ms-input-placeholder{color:#000;opacity:0.5;}</style><form class="t-form t-form_inputs-total_1 tn-form_horiz js-form-proccess" id="form644874290" name="form644874290" action="https://forms.tildacdn.com/procces/" method="POST" role="form" data-formactiontype="2" data-inputbox=".t-input-group" data-success-callback="t396_onSuccess" data-success-popup="y" data-error-popup="y"><div class="js-successbox t-form__successbox t-text t-text_sm" style="display: none;"></div><div class="t-form__inputsbox"><div class="t-input-group t-input-group_em" data-input-lid="1531306243545" style="margin-bottom: 20px;"><div class="t-input-block"><input aria-label="email" type="text" name="email" class="t-input js-tilda-rule t-input-inline-styles" data-tilda-rule="email" placeholder="mail@example.com" style="color: rgb(0, 0, 0); border: 1px solid rgb(165, 185, 217); background-color: rgb(244, 247, 249); font-size: 16px; font-weight: 400; height: 50px;"><div class="t-input-error"></div></div></div><div class="t-form__errorbox-middle"><div class="js-errorbox-all t-form__errorbox-wrapper" style="display: none;"><div class="t-form__errorbox-text t-text_xs t-text"><p class="t-form__errorbox-item js-rule-error js-rule-error-all"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-req"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-email"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-name"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-phone"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-string"></p></div><div class="tn-form__errorbox-close js-errorbox-close"><div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-left"></div><div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-right"></div></div></div></div><div class="tn-form__submit"><button type="submit" class="t-submit" style="padding: 0px 15px; display: block; width: 160px; font-weight: 600; height: 50px;">Начать</button></div></div><div class="t-form__errorbox-bottom"><div class="js-errorbox-all t-form__errorbox-wrapper" style="display: none;"><div class="t-form__errorbox-text t-text_xs t-text"><p class="t-form__errorbox-item js-rule-error js-rule-error-all"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-req"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-email"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-name"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-phone"></p><p class="t-form__errorbox-item js-rule-error js-rule-error-string"></p></div><div class="tn-form__errorbox-close js-errorbox-close"><div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-left"></div><div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-right"></div></div></div></div><div style="position: absolute; left: -5000px; bottom: 0px; display: none;"><input type="text" name="form-spec-comments" class="js-form-spec-comments" tabindex="-1"></div></form><style id="t-zero-form-btn-styles-1548414500699-644874290">#rec644874290 [data-elem-id="1548414500699"] .t-submit{color:#fff;border-radius:0px;font-size:16px;font-family:Open Sans;cursor:pointer;background-color: #0056d3;}</style></div><!--googleoff: all--><!--noindex--><div data-nosnippet="true" class="tn-atom__inputs-wrapp" style="display:none;"><textarea class="tn-atom__inputs-textarea">{"0":{"lid":"1531306243545","ls":"10","loff":"","li_type":"em","li_name":"email","li_ph":"mail@example.com","li_nm":"email"}}</textarea></div><!--/noindex--><!--googleon: all--></div></div> </div> <script>t_onReady(function () {
-t_onFuncLoad('t396_init', function () {
-t396_init('644874290');
-});
-});</script><!-- /T396 --></div><div id="rec644897375" class="r t-rec t-rec_pt_0 t-rec_pb_75" style="padding-top:0px;padding-bottom:75px;background-color:#171717; " data-animationappear="off" data-record-type="452" data-bg-color="#171717"><!-- T452 --><div class="t452" id="t-footer_644897375"><div class="t452__maincontainer" style="height: 80px;"><div class="t452__content"><div class="t452__col t452__col_hiddenmobile"><div class="t452__typo t452__copyright t-name t-name_xs" field="text" style="color: #ffffff;">© 2023 LONG FLOW</div></div><div class="t452__col t452__col_center t-align_center"><div class="t-sociallinks"><ul role="list" class="t-sociallinks__wrapper" aria-label="Social media links"><!-- new soclinks --><li class="t-sociallinks__item t-sociallinks__item_telegram"><a href="https://t.me/longflowit" target="_blank" rel="nofollow noopener" aria-label="telegram" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm21.977-68.056c.386-4.38-4.24-2.576-4.24-2.576-3.415 1.414-6.937 2.85-10.497 4.302-11.04 4.503-22.444 9.155-32.159 13.734-5.268 1.932-2.184 3.864-2.184 3.864l8.351 2.577c3.855 1.16 5.91-.129 5.91-.129l17.988-12.238c6.424-4.38 4.882-.773 3.34.773l-13.49 12.882c-2.056 1.804-1.028 3.35-.129 4.123 2.55 2.249 8.82 6.364 11.557 8.16.712.467 1.185.778 1.292.858.642.515 4.111 2.834 6.424 2.319 2.313-.516 2.57-3.479 2.57-3.479l3.083-20.226c.462-3.511.993-6.886 1.417-9.582.4-2.546.705-4.485.767-5.362Z" fill="#ffffff"></path></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_instagram"><a target="_blank" rel="nofollow" aria-label="instagram" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM25 39.3918C25 31.4558 31.4566 25 39.3918 25H60.6082C68.5442 25 75 31.4566 75 39.3918V60.8028C75 68.738 68.5442 75.1946 60.6082 75.1946H39.3918C31.4558 75.1946 25 68.738 25 60.8028V39.3918ZM36.9883 50.0054C36.9883 42.8847 42.8438 37.0922 50.0397 37.0922C57.2356 37.0922 63.0911 42.8847 63.0911 50.0054C63.0911 57.1252 57.2356 62.9177 50.0397 62.9177C42.843 62.9177 36.9883 57.1252 36.9883 50.0054ZM41.7422 50.0054C41.7422 54.5033 45.4641 58.1638 50.0397 58.1638C54.6153 58.1638 58.3372 54.5041 58.3372 50.0054C58.3372 45.5066 54.6145 41.8469 50.0397 41.8469C45.4641 41.8469 41.7422 45.5066 41.7422 50.0054ZM63.3248 39.6355C65.0208 39.6355 66.3956 38.2606 66.3956 36.5646C66.3956 34.8687 65.0208 33.4938 63.3248 33.4938C61.6288 33.4938 60.2539 34.8687 60.2539 36.5646C60.2539 38.2606 61.6288 39.6355 63.3248 39.6355Z" fill="#ffffff"></path></svg></a></li><!-- /new soclinks --></ul></div></div><div class="t452__col t452__col_mobile"><div class="t452__typo t452__copyright t-name t-name_xs" field="text" style="color: #ffffff;">© 2023 LONG FLOW</div></div><div class="t452__col"><div class="t452__scroll t-align_right"><a class="t452__typo t-name t-name_xs t452_scrolltop" style="color: #ffffff;" href="javascript:t452_scrollToTop();">Back to top<span class="t452__icon"><svg role="presentation" width="5px" height="17px" viewBox="0 0 6 20" version="1.1"><defs></defs><g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"><g id="Desktop-HD-Copy-39" sketch:type="MSArtboardGroup" transform="translate(-569.000000, -1797.000000)" fill="#ffffff"><path d="M565.662286,1804.2076 L562.095536,1806.87166 C561.958036,1807.00916 561.958036,1807.16385 562.095536,1807.30135 L565.662286,1809.96541 C565.799786,1810.10291 565.941411,1810.0431 565.941411,1809.83616 L565.941411,1808.11741 L581.816411,1808.11741 L581.816411,1806.05491 L565.941411,1806.05491 L565.941411,1804.33616 C565.941411,1804.18147 565.866474,1804.1141 565.769536,1804.14297 C565.737224,1804.1526 565.696661,1804.17322 565.662286,1804.2076 Z" id="Shape" sketch:type="MSShapeGroup" transform="translate(571.904411, 1807.088000) rotate(-270.000000) translate(-571.904411, -1807.088000) "></path></g></g></svg></span></a></div></div></div></div></div></div></div><!--/allrecords--><!-- Tilda copyright. Don't remove this line --><div class="t-tildalabel " id="tildacopy" data-tilda-sign="7876076#39865698" style="display: block !important; visibility: visible !important; position: relative !important; width: 100% !important; pointer-events: all !important; opacity: 1 !important; margin: 0 !important; z-index: 1 !important"><a href="https://tilda.cc/?upm=7876076" class="t-tildalabel__link"><div class="t-tildalabel__wrapper"><div class="t-tildalabel__txtleft">Made on </div><div class="t-tildalabel__wrapimg"><img src="./Lonf Flow Arbitrage_files/tildacopy.png" class="t-tildalabel__img" fetchpriority="low" alt=""></div><div class="t-tildalabel__txtright">Tilda</div></div></a></div><!-- Stat --><script type="text/javascript">if (! window.mainTracker) { window.mainTracker = 'tilda'; }
-window.tildastatcookie='no'; 
-setTimeout(function(){ (function (d, w, k, o, g) { var n=d.getElementsByTagName(o)[0],s=d.createElement(o),f=function(){n.parentNode.insertBefore(s,n);}; s.type = "text/javascript"; s.async = true; s.key = k; s.id = "tildastatscript"; s.src=g; if (w.opera=="[object Opera]") {d.addEventListener("DOMContentLoaded", f, false);} else { f(); } })(document, window, 'aa2cfd6f9cd103a98b0a836f59a6a245','script','https://static.tildacdn.info/js/tilda-stat-1.0.min.js');
-}, 2000); </script><link href="./Lonf Flow Arbitrage_files/tilda-zero-form-errorbox.min.css" rel="stylesheet" id="t-zero-form-errorbox-styles"><link href="./Lonf Flow Arbitrage_files/tilda-zero-form-horizontal.min.css" rel="stylesheet" id="t-zero-form-h-styles"></body></html>
+}</style><![endif]-->
+      <style>
+        #rec644874284 .t-menu__link-item {}
+
+        @supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+
+          #rec644874284 .t-menu__link-item,
+          #rec644874284 .t-menu__link-item.t-active {
+            opacity: 1 !important;
+          }
+        }
+      </style>
+    </div>
+    <div id="rec644874285" class="r t-rec t-rec_pt_0" style="padding-top:0px; " data-animationappear="off"
+      data-record-type="396"><!-- T396 -->
+      <style>
+        #rec644874285 .t396__artboard {
+          height: 560px;
+          background-color: #ffffff;
+        }
+
+        #rec644874285 .t396__filter {
+          height: 560px;
+        }
+
+        #rec644874285 .t396__carrier {
+          height: 560px;
+          background-position: center center;
+          background-attachment: scroll;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+
+        @media screen and (max-width: 1199px) {
+          #rec644874285 .t396__artboard {
+            height: 460px;
+          }
+
+          #rec644874285 .t396__filter {
+            height: 460px;
+          }
+
+          #rec644874285 .t396__carrier {
+            height: 460px;
+            background-attachment: scroll;
+          }
+        }
+
+        @media screen and (max-width: 959px) {
+          #rec644874285 .t396__artboard {
+            height: 760px;
+          }
+
+          #rec644874285 .t396__filter {
+            height: 760px;
+          }
+
+          #rec644874285 .t396__carrier {
+            height: 760px;
+            background-attachment: scroll;
+          }
+        }
+
+        @media screen and (max-width: 639px) {
+          #rec644874285 .t396__artboard {
+            height: 690px;
+          }
+
+          #rec644874285 .t396__filter {
+            height: 690px;
+          }
+
+          #rec644874285 .t396__carrier {
+            height: 690px;
+            background-attachment: scroll;
+          }
+        }
+
+        @media screen and (max-width: 479px) {
+          #rec644874285 .t396__artboard {
+            height: 580px;
+          }
+
+          #rec644874285 .t396__filter {
+            height: 580px;
+          }
+
+          #rec644874285 .t396__carrier {
+            height: 580px;
+            background-attachment: scroll;
+          }
+        }
+
+        #rec644874285 .tn-elem[data-elem-id="1536161772606"] {
+          color: #000000;
+          z-index: 1;
+          top: 150px;
+          left: calc(50% - 600px + 21px);
+          width: 490px;
+        }
+
+        #rec644874285 .tn-elem[data-elem-id="1536161772606"] .tn-atom {
+          color: #000000;
+          font-size: 35px;
+          font-family: 'Open Sans', Arial, sans-serif;
+          line-height: 1.35;
+          font-weight: 500;
+          background-position: center center;
+          border-color: transparent;
+          border-style: solid;
+        }
+
+        @media screen and (max-width: 1199px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161772606"] {
+            top: 123px;
+            left: calc(50% - 480px + 11px);
+            width: 390px;
+          }
+
+          #rec644874285 .tn-elem[data-elem-id="1536161772606"] .tn-atom {
+            font-size: 29px;
+          }
+        }
+
+        @media screen and (max-width: 959px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161772606"] {
+            top: 90px;
+            left: calc(50% - 320px + 91px);
+            width: 460px;
+          }
+
+          #rec644874285 .tn-elem[data-elem-id="1536161772606"] {
+            text-align: center;
+          }
+        }
+
+        @media screen and (max-width: 639px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161772606"] {
+            top: 77px;
+            left: calc(50% - 240px + 31px);
+            width: 420px;
+          }
+
+          #rec644874285 .tn-elem[data-elem-id="1536161772606"] .tn-atom {
+            font-size: 30px;
+          }
+        }
+
+        @media screen and (max-width: 479px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161772606"] {
+            top: 70px;
+            left: calc(50% - 160px + 11px);
+            width: 300px;
+          }
+
+          #rec644874285 .tn-elem[data-elem-id="1536161772606"] .tn-atom {
+            font-size: 22px;
+          }
+        }
+
+        #rec644874285 .tn-elem[data-elem-id="1536161805326"] {
+          color: #000000;
+          z-index: 2;
+          top: 259px;
+          left: calc(50% - 600px + 21px);
+          width: 470px;
+        }
+
+        #rec644874285 .tn-elem[data-elem-id="1536161805326"] .tn-atom {
+          color: #000000;
+          font-size: 16px;
+          font-family: 'Open Sans', Arial, sans-serif;
+          line-height: 1.5;
+          font-weight: 400;
+          opacity: 0.45;
+          background-position: center center;
+          border-color: transparent;
+          border-style: solid;
+        }
+
+        @media screen and (max-width: 1199px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161805326"] {
+            top: 213px;
+            left: calc(50% - 480px + 11px);
+            width: 380px;
+          }
+
+          #rec644874285 .tn-elem[data-elem-id="1536161805326"] .tn-atom {
+            font-size: 13px;
+            line-height: 1.6;
+          }
+        }
+
+        @media screen and (max-width: 959px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161805326"] {
+            top: 181px;
+            left: calc(50% - 320px + 105px);
+            width: 430px;
+          }
+
+          #rec644874285 .tn-elem[data-elem-id="1536161805326"] {
+            text-align: center;
+          }
+        }
+
+        @media screen and (max-width: 639px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161805326"] {
+            top: 171px;
+            left: calc(50% - 240px + 48px);
+            width: 380px;
+          }
+
+          #rec644874285 .tn-elem[data-elem-id="1536161805326"] .tn-atom {
+            font-size: 13px;
+          }
+        }
+
+        @media screen and (max-width: 479px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161805326"] {
+            top: 139px;
+            left: calc(50% - 160px + 16px);
+            width: 290px;
+          }
+
+          #rec644874285 .tn-elem[data-elem-id="1536161805326"] .tn-atom {
+            font-size: 12px;
+          }
+        }
+
+        #rec644874285 .tn-elem[data-elem-id="1536161848355"] {
+          z-index: 3;
+          top: 352px;
+          left: calc(50% - 600px + 21px);
+          width: 460px;
+        }
+
+        #rec644874285 .tn-elem[data-elem-id="1536161848355"] .tn-atom {
+          background-position: center center;
+          border-color: transparent;
+          border-style: solid;
+        }
+
+        @media screen and (max-width: 1199px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161848355"] {
+            top: 290px;
+            left: calc(50% - 480px + 11px);
+            width: 370px;
+          }
+        }
+
+        @media screen and (max-width: 959px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161848355"] {
+            top: 265px;
+            left: calc(50% - 320px + 136px);
+          }
+        }
+
+        @media screen and (max-width: 639px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161848355"] {
+            top: 254px;
+            left: calc(50% - 240px + 71px);
+            width: 340px;
+          }
+        }
+
+        @media screen and (max-width: 479px) {
+          #rec644874285 .tn-elem[data-elem-id="1536161848355"] {
+            top: 230px;
+            left: calc(50% - 160px + 11px);
+            width: 300px;
+          }
+        }
+
+        #rec644874285 .tn-elem[data-elem-id="1536162004763"] {
+          z-index: 4;
+          top: 62px;
+          left: calc(50% - 600px + 585px);
+          width: 600px;
+        }
+
+        #rec644874285 .tn-elem[data-elem-id="1536162004763"] .tn-atom {
+          background-position: center center;
+          border-color: transparent;
+          border-style: solid;
+        }
+
+        @media screen and (max-width: 1199px) {
+          #rec644874285 .tn-elem[data-elem-id="1536162004763"] {
+            top: 60px;
+            left: calc(50% - 480px + 472px);
+            width: 480px;
+          }
+        }
+
+        @media screen and (max-width: 959px) {
+          #rec644874285 .tn-elem[data-elem-id="1536162004763"] {
+            top: 380px;
+            left: calc(50% - 320px + 81px);
+          }
+        }
+
+        @media screen and (max-width: 639px) {
+          #rec644874285 .tn-elem[data-elem-id="1536162004763"] {
+            top: 371px;
+            left: calc(50% - 240px + 41px);
+            width: 400px;
+          }
+        }
+
+        @media screen and (max-width: 479px) {
+          #rec644874285 .tn-elem[data-elem-id="1536162004763"] {
+            top: 333px;
+            left: calc(50% - 160px + 11px);
+            width: 300px;
+          }
+        }
+      </style>
+      <div class="t396">
+        <div class="t396__artboard rendered" data-artboard-recid="644874285"
+          data-artboard-screens="320,480,640,960,1200" data-artboard-height="560" data-artboard-valign="center"
+          data-artboard-height-res-320="580" data-artboard-height-res-480="690" data-artboard-height-res-640="760"
+          data-artboard-height-res-960="460" data-artboard-proxy-min-offset-top="0" data-artboard-proxy-min-height="560"
+          data-artboard-proxy-max-height="560">
+          <div class="t396__carrier" data-artboard-recid="644874285"></div>
+          <div class="t396__filter" data-artboard-recid="644874285"></div>
+          <div class="t396__elem tn-elem tn-elem__6448742851536161772606" data-elem-id="1536161772606"
+            data-elem-type="text" data-field-top-value="150" data-field-left-value="21" data-field-width-value="490"
+            data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+            data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value=""
+            data-field-widthunits-value="" data-field-top-res-320-value="70" data-field-left-res-320-value="11"
+            data-field-width-res-320-value="300" data-field-top-res-480-value="77" data-field-left-res-480-value="31"
+            data-field-width-res-480-value="420" data-field-top-res-640-value="90" data-field-left-res-640-value="91"
+            data-field-width-res-640-value="460" data-field-top-res-960-value="123" data-field-left-res-960-value="11"
+            data-field-width-res-960-value="390"
+            data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits"
+            style="top: 150px; left: 52.5px; width: 490px;">
+            <div class="tn-atom" field="tn_text_1536161772606" style="line-height: 47px;">Увеличьте прибыльность вашей
+              торговли</div>
+          </div>
+          <div class="t396__elem tn-elem tn-elem__6448742851536161805326" data-elem-id="1536161805326"
+            data-elem-type="text" data-field-top-value="259" data-field-left-value="21" data-field-width-value="470"
+            data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+            data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value=""
+            data-field-widthunits-value="" data-field-top-res-320-value="139" data-field-left-res-320-value="16"
+            data-field-width-res-320-value="290" data-field-top-res-480-value="171" data-field-left-res-480-value="48"
+            data-field-width-res-480-value="380" data-field-top-res-640-value="181" data-field-left-res-640-value="105"
+            data-field-width-res-640-value="430" data-field-top-res-960-value="213" data-field-left-res-960-value="11"
+            data-field-width-res-960-value="380"
+            data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits"
+            style="top: 259px; left: 52.5px; width: 470px;">
+            <div class="tn-atom" field="tn_text_1536161805326" style="line-height: 24px;">Новый инструмент для
+              арбитражной торговли криптовалютой</div>
+          </div>
+          <div class="t396__elem tn-elem tn-elem__6448742851536161848355 zero-form-rendered"
+            data-elem-id="1536161848355" data-elem-type="form" data-field-top-value="352" data-field-left-value="21"
+            data-field-width-value="460" data-field-axisy-value="top" data-field-axisx-value="left"
+            data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value=""
+            data-field-heightunits-value="" data-field-widthunits-value="" data-field-top-res-320-value="230"
+            data-field-left-res-320-value="11" data-field-width-res-320-value="300" data-field-top-res-480-value="254"
+            data-field-left-res-480-value="71" data-field-width-res-480-value="340" data-field-top-res-640-value="265"
+            data-field-left-res-640-value="136" data-field-top-res-960-value="290" data-field-left-res-960-value="11"
+            data-field-width-res-960-value="370" data-field-inputpos-value="h"
+            data-field-inputfontfamily-value="Open Sans" data-field-inputfontsize-value="15"
+            data-field-inputfontweight-value="400" data-field-inputcolor-value="#000"
+            data-field-inputbgcolor-value="#fff" data-field-inputbordercolor-value="#a5b9d9"
+            data-field-inputbordersize-value="1" data-field-inputheight-value="50" data-field-inputmargbottom-value="20"
+            data-field-inputtitlefontsize-value="16" data-field-inputtitlefontweight-value="400"
+            data-field-inputtitlecolor-value="#000" data-field-inputtitlemargbottom-value="5"
+            data-field-inputelsfontweight-value="400" data-field-inputelsfontsize-value="14"
+            data-field-buttontitle-value="Зарегистрироваться" data-field-buttoncolor-value="#fff"
+            data-field-buttonbgcolor-value="#0056d3" data-field-buttonwidth-value="190"
+            data-field-buttonheight-value="50" data-field-buttonfontsize-value="14"
+            data-field-buttonfontweight-value="600" data-field-inputfontsize-res-320-value="11"
+            data-field-inputheight-res-320-value="40" data-field-buttonwidth-res-320-value="140"
+            data-field-buttonheight-res-320-value="40" data-field-buttonfontsize-res-320-value="10"
+            data-field-inputfontsize-res-480-value="13" data-field-buttonwidth-res-480-value="165"
+            data-field-buttonfontsize-res-480-value="12" data-field-inputfontsize-res-960-value="14"
+            data-field-inputheight-res-960-value="45" data-field-buttonwidth-res-960-value="170"
+            data-field-buttonheight-res-960-value="45" data-field-buttonfontsize-res-960-value="13"
+            data-fields="width,top,left,inputs,container,axisx,axisy,widthunits,leftunits,topunits"
+            style="width: 460px; left: 52.5px; top: 352px;">
+            <div class="tn-atom tn-atom__form">
+              <style id="t-zero-placeholder-644874285-1536161848355">
+                #rec644874285 [data-elem-id="1536161848355"] input::-webkit-input-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874285 [data-elem-id="1536161848355"] input::-moz-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874285 [data-elem-id="1536161848355"] input:-moz-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874285 [data-elem-id="1536161848355"] input:-ms-input-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874285 [data-elem-id="1536161848355"] textarea::-webkit-input-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874285 [data-elem-id="1536161848355"] textarea::-moz-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874285 [data-elem-id="1536161848355"] textarea:-moz-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874285 [data-elem-id="1536161848355"] textarea:-ms-input-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+              </style>
+              <style id="t-zero-form-c-styles">
+                .tn-atom .t-input-block {
+                  position: relative;
+                }
+              </style>
+              <form class="t-form t-form_inputs-total_1 tn-form_horiz js-form-proccess" id="form644874285"
+                name="form644874285" action="https://forms.tildacdn.com/procces/" method="POST" role="form"
+                data-formactiontype="2" data-inputbox=".t-input-group" data-success-callback="t396_onSuccess"
+                data-success-popup="y" data-error-popup="y">
+                <div class="js-successbox t-form__successbox t-text t-text_sm" style="display: none;"></div>
+                <div class="t-form__inputsbox">
+                  <div class="t-input-group t-input-group_em" data-input-lid="1531306243545"
+                    style="margin-bottom: 20px;">
+                    <div class="t-input-block"><input aria-label="email" type="text" name="email"
+                        class="t-input js-tilda-rule t-input-inline-styles" data-tilda-rule="email"
+                        placeholder="mail@example.com"
+                        style="color: rgb(0, 0, 0); border: 1px solid rgb(165, 185, 217); background-color: rgb(255, 255, 255); font-size: 15px; font-weight: 400; height: 50px;">
+                      <div class="t-input-error"></div>
+                    </div>
+                  </div>
+                  <div class="t-form__errorbox-middle">
+                    <div class="js-errorbox-all t-form__errorbox-wrapper" style="display: none;">
+                      <div class="t-form__errorbox-text t-text_xs t-text">
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-all"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-req"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-email"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-name"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-phone"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-string"></p>
+                      </div>
+                      <div class="tn-form__errorbox-close js-errorbox-close">
+                        <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-left"></div>
+                        <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tn-form__submit"><button type="submit" class="t-submit"
+                      style="padding: 0px 15px; display: block; width: 190px; font-weight: 600; height: 50px;">Зарегистрироваться</button>
+                  </div>
+                </div>
+                <div class="t-form__errorbox-bottom">
+                  <div class="js-errorbox-all t-form__errorbox-wrapper" style="display: none;">
+                    <div class="t-form__errorbox-text t-text_xs t-text">
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-all"></p>
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-req"></p>
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-email"></p>
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-name"></p>
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-phone"></p>
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-string"></p>
+                    </div>
+                    <div class="tn-form__errorbox-close js-errorbox-close">
+                      <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-left"></div>
+                      <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-right"></div>
+                    </div>
+                  </div>
+                </div>
+                <div style="position: absolute; left: -5000px; bottom: 0px; display: none;"><input type="text"
+                    name="form-spec-comments" class="js-form-spec-comments" tabindex="-1"></div>
+              </form>
+              <style id="t-zero-form-btn-styles-1536161848355-644874285">
+                #rec644874285 [data-elem-id="1536161848355"] .t-submit {
+                  color: #fff;
+                  border-radius: 0px;
+                  font-size: 14px;
+                  font-family: TildaSans, Arial, sans-serif;
+                  cursor: pointer;
+                  background-color: #0056d3;
+                }
+              </style>
+            </div><!--googleoff: all--><!--noindex-->
+            <div data-nosnippet="true" class="tn-atom__inputs-wrapp" style="display:none;"><textarea
+                class="tn-atom__inputs-textarea">{"0":{"lid":"1531306243545","ls":"10","loff":"","li_type":"em","li_name":"email","li_ph":"mail@example.com","li_nm":"email"}}</textarea>
+            </div><!--/noindex--><!--googleon: all-->
+          </div>
+          <div class="t396__elem tn-elem tn-elem__6448742851536162004763" data-elem-id="1536162004763"
+            data-elem-type="image" data-field-top-value="62" data-field-left-value="585" data-field-width-value="600"
+            data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+            data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value=""
+            data-field-widthunits-value="" data-field-top-res-320-value="333" data-field-left-res-320-value="11"
+            data-field-width-res-320-value="300" data-field-top-res-480-value="371" data-field-left-res-480-value="41"
+            data-field-width-res-480-value="400" data-field-top-res-640-value="380" data-field-left-res-640-value="81"
+            data-field-top-res-960-value="60" data-field-left-res-960-value="472" data-field-width-res-960-value="480"
+            data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits"
+            style="left: 616.5px; top: 62px; width: 600px;">
+            <div class="tn-atom"><img class="tn-atom__img t-img loaded"
+                data-original="https://static.tildacdn.info/tild3962-3937-4139-b461-353865663838/obnovleniya-monetory.png"
+                alt="" imgfield="tn_img_1536162004763" src="./Lonf Flow Arbitrage_files/obnovleniya-monetory.png"></div>
+          </div>
+        </div>
+      </div>
+      <script>t_onReady(function () {
+          t_onFuncLoad('t396_init', function () {
+            t396_init('644874285');
+          });
+        });</script><!-- /T396 -->
+    </div>
+    <div id="rec644874287" class="r t-rec t-rec_pt_90 t-rec_pb_150" style="padding-top:90px;padding-bottom:150px; "
+      data-animationappear="off" data-record-type="843"><!-- t843 -->
+      <div class="t843">
+        <div class="t-card__container t-container">
+          <div class="t843__colwrapper t-col t-col_12 ">
+            <div class="t843__col t-col t-col_6 t843__mobileimg">
+              <div class="t843__blockimg t-bgimg" bgimgfield="li_img__1531132449692"
+                data-original="https://static.tildacdn.info/tild6638-6364-4365-b331-376439623333/Arbitration-between-.png"
+                data-image-width="550" data-image-height="400"
+                style="background-image: url(&quot;https://static.tildacdn.info/tild6638-6364-4365-b331-376439623333/-/resizeb/20x/Arbitration-between-.png&quot;); padding-bottom: 72.7273%;"
+                itemscope="" itemtype="http://schema.org/ImageObject">
+                <meta itemprop="image"
+                  content="https://static.tildacdn.info/tild6638-6364-4365-b331-376439623333/Arbitration-between-.png">
+              </div>
+            </div>
+            <div class="t843__col t-col t-col_6 t843__leftcol t843__desktopimg">
+              <div class="t843__imgwrapper" style="max-width:550px;">
+                <div class="t843__blockimg t-bgimg loaded"
+                  data-original="https://static.tildacdn.info/tild6638-6364-4365-b331-376439623333/Arbitration-between-.png"
+                  bgimgfield="li_img__1531132449692" data-image-width="550" data-image-height="400"
+                  style="background-image: url(&quot;https://thumb.tildacdn.com/tild6638-6364-4365-b331-376439623333/-/format/webp/Arbitration-between-.png&quot;); padding-bottom: 72.7273%;"
+                  itemscope="" itemtype="http://schema.org/ImageObject">
+                  <meta itemprop="image"
+                    content="https://static.tildacdn.info/tild6638-6364-4365-b331-376439623333/Arbitration-between-.png">
+                </div>
+              </div>
+            </div>
+            <div class="t843__col t-col t-col_6 t843__rightcol">
+              <div class="t843__textwrapper t-align_left" style="max-width: 450px; height: 400px;">
+                <div class="t843__content t-valign_middle">
+                  <div class="t843__box">
+                    <div class="t-card__title t-heading t-heading_xs" id="cardtitle_644874287"
+                      field="li_title__1531132449692" style="font-size:36px;font-weight:500;">Управление прибылью</div>
+                    <div class="t-card__descr t-descr t-descr_sm" field="li_descr__1531132449692"
+                      style="font-size:20px;">Фильтруйте список отслеживаемых бирж в зависимости от прибыли, на которую
+                      вы рассчитываете.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="t843__separator t-clear" style="margin-bottom:20px;"></div>
+            <div class="t843__col t-col t-col_6 t843__mobileimg">
+              <div class="t843__blockimg t-bgimg" bgimgfield="li_img__1531132486185"
+                data-original="https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/1082187cb9984c084ff4.jpg"
+                data-image-width="550" data-image-height="400"
+                style="background-image: url(&quot;https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/-/resizeb/20x/1082187cb9984c084ff4.jpg&quot;); padding-bottom: 72.7273%;"
+                itemscope="" itemtype="http://schema.org/ImageObject">
+                <meta itemprop="image"
+                  content="https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/1082187cb9984c084ff4.jpg">
+              </div>
+            </div>
+            <div class="t843__col t-col t-col_6 t843__leftcol">
+              <div class="t843__textwrapper t-align_left" style="max-width: 450px; height: 400px;">
+                <div class="t843__content t-valign_middle">
+                  <div class="t843__box">
+                    <div class="t-card__title t-heading t-heading_xs" id="cardtitle_644874287"
+                      field="li_title__1531132486185" style="font-size:36px;font-weight:500;">Управление валютой</div>
+                    <div class="t-card__descr t-descr t-descr_sm" field="li_descr__1531132486185"
+                      style="font-size:20px;">Следите за интересующими вас криптовалютными парами, чтобы не упустить
+                      возможность заработать.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="t843__col t-col t-col_6 t843__rightcol t843__desktopimg">
+              <div class="t843__imgwrapper" style="max-width:550px;">
+                <div class="t843__blockimg t-bgimg" bgimgfield="li_img__1531132486185"
+                  data-original="https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/1082187cb9984c084ff4.jpg"
+                  data-image-width="550" data-image-height="400"
+                  style="background-image: url(&quot;https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/-/resizeb/20x/1082187cb9984c084ff4.jpg&quot;); padding-bottom: 72.7273%;"
+                  itemscope="" itemtype="http://schema.org/ImageObject">
+                  <meta itemprop="image"
+                    content="https://static.tildacdn.info/tild3632-3237-4631-a131-303135613836/1082187cb9984c084ff4.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="t843__separator t-clear" style="margin-bottom:20px;"></div>
+            <div class="t843__col t-col t-col_6 t843__mobileimg">
+              <div class="t843__blockimg t-bgimg" bgimgfield="li_img__1531132468147"
+                data-original="https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/756693571015298.jpg"
+                data-image-width="550" data-image-height="400"
+                style="background-image: url(&quot;https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/-/resizeb/20x/756693571015298.jpg&quot;); padding-bottom: 72.7273%;"
+                itemscope="" itemtype="http://schema.org/ImageObject">
+                <meta itemprop="image"
+                  content="https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/756693571015298.jpg">
+              </div>
+            </div>
+            <div class="t843__col t-col t-col_6 t843__leftcol t843__desktopimg">
+              <div class="t843__imgwrapper" style="max-width:550px;">
+                <div class="t843__blockimg t-bgimg"
+                  data-original="https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/756693571015298.jpg"
+                  bgimgfield="li_img__1531132468147" data-image-width="550" data-image-height="400"
+                  style="background-image: url(&quot;https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/-/resizeb/20x/756693571015298.jpg&quot;); padding-bottom: 72.7273%;"
+                  itemscope="" itemtype="http://schema.org/ImageObject">
+                  <meta itemprop="image"
+                    content="https://static.tildacdn.info/tild3636-3337-4364-b465-633535366632/756693571015298.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="t843__col t-col t-col_6 t843__rightcol">
+              <div class="t843__textwrapper t-align_left" style="max-width: 450px; height: 400px;">
+                <div class="t843__content t-valign_middle">
+                  <div class="t843__box">
+                    <div class="t-card__title t-heading t-heading_xs" id="cardtitle_644874287"
+                      field="li_title__1531132468147" style="font-size:36px;font-weight:500;">Выбирайте биржи</div>
+                    <div class="t-card__descr t-descr t-descr_sm" field="li_descr__1531132468147"
+                      style="font-size:20px;">Сканнер позволяет выбирать интересующие вас биржи, для повышения удобства
+                      и снижения рисков вашей торговли.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">t_onReady(function () {
+          t_onFuncLoad('t843_init', function () {
+            t843_init('644874287');
+          });
+        });</script>
+    </div>
+    <div id="rec644874288" class="r t-rec t-rec_pt_135 t-rec_pb_165"
+      style="padding-top:135px;padding-bottom:165px;background-color:#f4f7f9; " data-animationappear="off"
+      data-record-type="858" data-bg-color="#f4f7f9"><!-- t858 -->
+      <div class="t858">
+        <div class="t-section__container t-container">
+          <div class="t-col t-col_12">
+            <div class="t-section__topwrapper t-align_center">
+              <div class="t-section__title t-title t-title_xs" field="btitle"><span style="font-weight: 500;">Мы поможем
+                  вам торговать более эффективно</span></div>
+              <div class="t-section__descr t-descr t-descr_xl t-margin_auto" field="bdescr">Мы предлагаем вам полный сет
+                инструментов для отслеживания лучших торговых связок.</div>
+            </div>
+          </div>
+        </div>
+        <div class="t858__container t-card__container t-container" data-columns-in-row="3">
+          <div class="t858__col t-card__col t-card__col_withoutbtn t-col t-col_4 t-align_left">
+            <div class="t858__inner-col"
+              style="background-color: rgb(255, 255, 255); border-radius: 7px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px; height: 404px;">
+              <div class="t858__wrap">
+                <div class="t858__wrap_top">
+                  <div class="t858__bgimg t-bgimg" bgimgfield="li_img__1533046438146"
+                    data-original="https://static.tildacdn.info/tild3764-6561-4736-b438-343035656339/template_illustratio.svg"
+                    style="width:60px;height:60px;margin-bottom:60px;background-image:url(&#39;https://static.tildacdn.info/tild3764-6561-4736-b438-343035656339/template_illustratio.svg&#39;);"
+                    itemscope="" itemtype="http://schema.org/ImageObject">
+                    <meta itemprop="image"
+                      content="https://static.tildacdn.info/tild3764-6561-4736-b438-343035656339/template_illustratio.svg">
+                  </div>
+                </div>
+                <div class="t858__wrap_bottom">
+                  <div class="t-card__title t-name t-name_lg t858__bottommargin" field="li_title__1533046438146">
+                    Работайте на любом устройстве<br></div>
+                  <div class="t-card__descr t-descr t-descr_sm" field="li_descr__1533046438146">Интерфейс LF arbitrage
+                    адаптивный. Теперь вы можете торговать вне зависимости от вашего местоположения.</div>
+                  <style>
+                    #rec644874288 .t-card__title {
+                      font-weight: 500;
+                    }
+                  </style>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t858__col t-card__col t-card__col_withoutbtn t-col t-col_4 t-align_left">
+            <div class="t858__inner-col"
+              style="background-color: rgb(255, 255, 255); border-radius: 7px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px; height: 404px;">
+              <div class="t858__wrap">
+                <div class="t858__wrap_top">
+                  <div class="t858__bgimg t-bgimg" bgimgfield="li_img__1536162675541"
+                    data-original="https://static.tildacdn.info/tild6566-3966-4666-b834-323466623831/template_illustratio.svg"
+                    style="width:60px;height:60px;margin-bottom:60px;background-image:url(&#39;https://static.tildacdn.info/tild6566-3966-4666-b834-323466623831/template_illustratio.svg&#39;);"
+                    itemscope="" itemtype="http://schema.org/ImageObject">
+                    <meta itemprop="image"
+                      content="https://static.tildacdn.info/tild6566-3966-4666-b834-323466623831/template_illustratio.svg">
+                  </div>
+                </div>
+                <div class="t858__wrap_bottom">
+                  <div class="t-card__title t-name t-name_lg t858__bottommargin" field="li_title__1536162675541">
+                    Используйте понятный интерфейс</div>
+                  <div class="t-card__descr t-descr t-descr_sm" field="li_descr__1536162675541">Мы разработали
+                    интуитивный и простой интерфейс, к которому можно легко привыкнуть за минимальное количество
+                    времени.<br></div>
+                  <style>
+                    #rec644874288 .t-card__title {
+                      font-weight: 500;
+                    }
+                  </style>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t858__col t-card__col t-card__col_withoutbtn t-col t-col_4 t-align_left">
+            <div class="t858__inner-col"
+              style="background-color: rgb(255, 255, 255); border-radius: 7px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px; height: 404px;">
+              <div class="t858__wrap">
+                <div class="t858__wrap_top">
+                  <div class="t858__bgimg t-bgimg" bgimgfield="li_img__1536162664682"
+                    data-original="https://static.tildacdn.info/tild3133-3162-4761-b131-356137626465/template_illustratio.svg"
+                    style="width:60px;height:60px;margin-bottom:60px;background-image:url(&#39;https://static.tildacdn.info/tild3133-3162-4761-b131-356137626465/template_illustratio.svg&#39;);"
+                    itemscope="" itemtype="http://schema.org/ImageObject">
+                    <meta itemprop="image"
+                      content="https://static.tildacdn.info/tild3133-3162-4761-b131-356137626465/template_illustratio.svg">
+                  </div>
+                </div>
+                <div class="t858__wrap_bottom">
+                  <div class="t-card__title t-name t-name_lg t858__bottommargin" field="li_title__1536162664682">
+                    Работайте в любой точке планеты</div>
+                  <div class="t-card__descr t-descr t-descr_sm" field="li_descr__1536162664682">Вы часто перемещаетесь
+                    по миру? Сохраняйте связь с рынками вне зависимости от места положения и реагируйте своевременно, не
+                    упуская возможностей.</div>
+                  <style>
+                    #rec644874288 .t-card__title {
+                      font-weight: 500;
+                    }
+                  </style>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t-clear t858__separator"></div>
+          <div class="t858__col t-card__col t-card__col_withoutbtn t-col t-col_4 t-align_left">
+            <div class="t858__inner-col"
+              style="background-color: rgb(255, 255, 255); border-radius: 7px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px; height: 346px;">
+              <div class="t858__wrap">
+                <div class="t858__wrap_top">
+                  <div class="t858__bgimg t-bgimg" bgimgfield="li_img__1533046478108"
+                    data-original="https://static.tildacdn.info/tild6438-3565-4536-b066-363138306334/template_illustratio.svg"
+                    style="width:60px;height:60px;margin-bottom:60px;background-image:url(&#39;https://static.tildacdn.info/tild6438-3565-4536-b066-363138306334/template_illustratio.svg&#39;);"
+                    itemscope="" itemtype="http://schema.org/ImageObject">
+                    <meta itemprop="image"
+                      content="https://static.tildacdn.info/tild6438-3565-4536-b066-363138306334/template_illustratio.svg">
+                  </div>
+                </div>
+                <div class="t858__wrap_bottom">
+                  <div class="t-card__title t-name t-name_lg t858__bottommargin" field="li_title__1533046478108">Держите
+                    руку на пульсе</div>
+                  <div class="t-card__descr t-descr t-descr_sm" field="li_descr__1533046478108">Регулярное обновление
+                    связи с биржами позволяет нам предоставлять актуальную информацию, которая не позволит вам потерять
+                    ваши деньги.</div>
+                  <style>
+                    #rec644874288 .t-card__title {
+                      font-weight: 500;
+                    }
+                  </style>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t858__col t-card__col t-card__col_withoutbtn t-col t-col_4 t-align_left">
+            <div class="t858__inner-col"
+              style="background-color: rgb(255, 255, 255); border-radius: 7px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px; height: 346px;">
+              <div class="t858__wrap">
+                <div class="t858__wrap_top">
+                  <div class="t858__bgimg t-bgimg" bgimgfield="li_img__1536162667885"
+                    data-original="https://static.tildacdn.info/tild3234-3433-4166-a539-636161396563/template_illustratio.svg"
+                    style="width:60px;height:60px;margin-bottom:60px;background-image:url(&#39;https://static.tildacdn.info/tild3234-3433-4166-a539-636161396563/template_illustratio.svg&#39;);"
+                    itemscope="" itemtype="http://schema.org/ImageObject">
+                    <meta itemprop="image"
+                      content="https://static.tildacdn.info/tild3234-3433-4166-a539-636161396563/template_illustratio.svg">
+                  </div>
+                </div>
+                <div class="t858__wrap_bottom">
+                  <div class="t-card__title t-name t-name_lg t858__bottommargin" field="li_title__1536162667885">
+                    Используйте интеграции<br></div>
+                  <div class="t-card__descr t-descr t-descr_sm" field="li_descr__1536162667885">Интегрируйте ваши
+                    торговые системы в наш сканнер с помощью API и других сервисов.</div>
+                  <style>
+                    #rec644874288 .t-card__title {
+                      font-weight: 500;
+                    }
+                  </style>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">t_onReady(function () {
+          t_onFuncLoad('t858_init', function () {
+            t858_init('644874288');
+          });
+        });</script>
+    </div>
+    <div id="rec644874290" class="r t-rec t-rec_pt_0" style="padding-top:0px; " data-animationappear="off"
+      data-record-type="396"><!-- T396 -->
+      <style>
+        #rec644874290 .t396__artboard {
+          height: 640px;
+          background-color: #f4f7f9;
+        }
+
+        #rec644874290 .t396__filter {
+          height: 640px;
+        }
+
+        #rec644874290 .t396__carrier {
+          height: 640px;
+          background-position: center center;
+          background-attachment: scroll;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+
+        @media screen and (max-width: 1199px) {
+          #rec644874290 .t396__artboard {
+            height: 530px;
+          }
+
+          #rec644874290 .t396__filter {
+            height: 530px;
+          }
+
+          #rec644874290 .t396__carrier {
+            height: 530px;
+            background-attachment: scroll;
+          }
+        }
+
+        @media screen and (max-width: 959px) {
+          #rec644874290 .t396__artboard {
+            height: 540px;
+          }
+
+          #rec644874290 .t396__filter {
+            height: 540px;
+          }
+
+          #rec644874290 .t396__carrier {
+            height: 540px;
+            background-attachment: scroll;
+          }
+        }
+
+        @media screen and (max-width: 639px) {
+          #rec644874290 .t396__artboard {
+            height: 620px;
+          }
+
+          #rec644874290 .t396__filter {
+            height: 620px;
+          }
+
+          #rec644874290 .t396__carrier {
+            height: 620px;
+            background-attachment: scroll;
+          }
+        }
+
+        @media screen and (max-width: 479px) {
+          #rec644874290 .t396__artboard {
+            height: 610px;
+          }
+
+          #rec644874290 .t396__filter {
+            height: 610px;
+          }
+
+          #rec644874290 .t396__carrier {
+            height: 610px;
+            background-attachment: scroll;
+          }
+        }
+
+        #rec644874290 .tn-elem[data-elem-id="1536161772606"] {
+          color: #000000;
+          text-align: center;
+          z-index: 1;
+          top: calc(320px - 0px + -94px);
+          left: calc(50% - 345px + 0px);
+          width: 690px;
+        }
+
+        #rec644874290 .tn-elem[data-elem-id="1536161772606"] .tn-atom {
+          color: #000000;
+          font-size: 42px;
+          font-family: 'Open Sans', Arial, sans-serif;
+          line-height: 1.2;
+          font-weight: 500;
+          background-position: center center;
+          border-color: transparent;
+          border-style: solid;
+        }
+
+        @media screen and (max-width: 1199px) {
+          #rec644874290 .tn-elem[data-elem-id="1536161772606"] {
+            top: calc(320px - 0px + -83px);
+            left: calc(50% - 345px + 0px);
+            width: 570px;
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161772606"] .tn-atom {
+            font-size: 36px;
+            line-height: 1.25;
+          }
+        }
+
+        @media screen and (max-width: 959px) {
+          #rec644874290 .tn-elem[data-elem-id="1536161772606"] {
+            top: calc(320px - 0px + -106px);
+            left: calc(50% - 345px + -84px);
+            width: 450px;
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161772606"] {
+            text-align: left;
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161772606"] .tn-atom {
+            font-size: 29px;
+          }
+        }
+
+        @media screen and (max-width: 639px) {
+          #rec644874290 .tn-elem[data-elem-id="1536161772606"] {
+            top: calc(320px - 0px + 40px);
+            left: calc(50% - 345px + 1px);
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161772606"] {
+            text-align: center;
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161772606"] .tn-atom {
+            font-size: 28px;
+          }
+        }
+
+        @media screen and (max-width: 479px) {
+          #rec644874290 .tn-elem[data-elem-id="1536161772606"] {
+            top: calc(320px - 0px + 19px);
+            left: calc(50% - 345px + 1px);
+            width: 300px;
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161772606"] .tn-atom {
+            font-size: 21px;
+            line-height: 1.25;
+          }
+        }
+
+        #rec644874290 .tn-elem[data-elem-id="1536161805326"] {
+          color: #000000;
+          text-align: center;
+          z-index: 2;
+          top: 300px;
+          left: calc(50% - 310px + 0px);
+          width: 620px;
+        }
+
+        #rec644874290 .tn-elem[data-elem-id="1536161805326"] .tn-atom {
+          color: #000000;
+          font-size: 18px;
+          font-family: 'Open Sans', Arial, sans-serif;
+          line-height: 1.6;
+          font-weight: 400;
+          opacity: 0.45;
+          background-position: center center;
+          border-color: transparent;
+          border-style: solid;
+        }
+
+        @media screen and (max-width: 1199px) {
+          #rec644874290 .tn-elem[data-elem-id="1536161805326"] {
+            top: 246px;
+            left: calc(50% - 310px + 0px);
+            width: 460px;
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161805326"] .tn-atom {
+            font-size: 18px;
+          }
+        }
+
+        @media screen and (max-width: 959px) {
+          #rec644874290 .tn-elem[data-elem-id="1536161805326"] {
+            top: 214px;
+            left: calc(50% - 310px + -148px);
+            width: 320px;
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161805326"] {
+            text-align: left;
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161805326"] .tn-atom {
+            font-size: 17px;
+          }
+        }
+
+        @media screen and (max-width: 639px) {
+          #rec644874290 .tn-elem[data-elem-id="1536161805326"] {
+            top: 397px;
+            left: calc(50% - 310px + 1px);
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161805326"] {
+            text-align: center;
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161805326"] .tn-atom {
+            font-size: 16px;
+          }
+        }
+
+        @media screen and (max-width: 479px) {
+          #rec644874290 .tn-elem[data-elem-id="1536161805326"] {
+            top: 376px;
+            left: calc(50% - 310px + 1px);
+            width: 260px;
+          }
+
+          #rec644874290 .tn-elem[data-elem-id="1536161805326"] .tn-atom {
+            font-size: 15px;
+            line-height: 1.45;
+          }
+        }
+
+        #rec644874290 .tn-elem[data-elem-id="1548409532328"] {
+          z-index: 4;
+          top: 48px;
+          left: calc(50% - 600px + -166px);
+          width: 370px;
+        }
+
+        #rec644874290 .tn-elem[data-elem-id="1548409532328"] .tn-atom {
+          background-position: center center;
+          border-color: transparent;
+          border-style: solid;
+        }
+
+        @media screen and (max-width: 1199px) {
+          #rec644874290 .tn-elem[data-elem-id="1548409532328"] {
+            top: 58px;
+            left: calc(50% - 480px + -100px);
+            width: 280px;
+          }
+        }
+
+        @media screen and (max-width: 959px) {
+          #rec644874290 .tn-elem[data-elem-id="1548409532328"] {
+            top: -402px;
+            left: calc(50% - 320px + 220px);
+            width: 220px;
+          }
+        }
+
+        @media screen and (max-width: 639px) {
+          #rec644874290 .tn-elem[data-elem-id="1548409532328"] {
+            top: -312px;
+            left: calc(50% - 240px + 140px);
+          }
+        }
+
+        @media screen and (max-width: 479px) {
+          #rec644874290 .tn-elem[data-elem-id="1548409532328"] {
+            top: -312px;
+            left: calc(50% - 160px + 60px);
+          }
+        }
+
+        #rec644874290 .tn-elem[data-elem-id="1548409534993"] {
+          z-index: 5;
+          top: 106px;
+          left: calc(50% - 600px + 990px);
+          width: 344px;
+        }
+
+        #rec644874290 .tn-elem[data-elem-id="1548409534993"] .tn-atom {
+          background-position: center center;
+          border-color: transparent;
+          border-style: solid;
+        }
+
+        @media screen and (max-width: 1199px) {
+          #rec644874290 .tn-elem[data-elem-id="1548409534993"] {
+            top: 86px;
+            left: calc(50% - 480px + 800px);
+            width: 264px;
+          }
+        }
+
+        @media screen and (max-width: 959px) {
+          #rec644874290 .tn-elem[data-elem-id="1548409534993"] {
+            top: 216px;
+            left: calc(50% - 320px + 400px);
+            width: 224px;
+          }
+        }
+
+        @media screen and (max-width: 639px) {
+          #rec644874290 .tn-elem[data-elem-id="1548409534993"] {
+            top: 64px;
+            left: calc(50% - 240px + 144px);
+            width: 174px;
+          }
+        }
+
+        @media screen and (max-width: 479px) {
+          #rec644874290 .tn-elem[data-elem-id="1548409534993"] {
+            top: 68px;
+            left: calc(50% - 160px + 74px);
+            width: 154px;
+          }
+        }
+
+        #rec644874290 .tn-elem[data-elem-id="1548414500699"] {
+          z-index: 6;
+          top: 387px;
+          left: calc(50% - 600px + 319px);
+          width: 560px;
+        }
+
+        #rec644874290 .tn-elem[data-elem-id="1548414500699"] .tn-atom {
+          background-position: center center;
+          border-color: transparent;
+          border-style: solid;
+        }
+
+        @media screen and (max-width: 1199px) {
+          #rec644874290 .tn-elem[data-elem-id="1548414500699"] {
+            top: 338px;
+            left: calc(50% - 480px + 250px);
+            width: 460px;
+          }
+        }
+
+        @media screen and (max-width: 959px) {
+          #rec644874290 .tn-elem[data-elem-id="1548414500699"] {
+            top: 312px;
+            left: calc(50% - 320px + 11px);
+            width: 340px;
+          }
+        }
+
+        @media screen and (max-width: 639px) {
+          #rec644874290 .tn-elem[data-elem-id="1548414500699"] {
+            top: 480px;
+            left: calc(50% - 240px + 76px);
+            width: 330px;
+          }
+        }
+
+        @media screen and (max-width: 479px) {
+          #rec644874290 .tn-elem[data-elem-id="1548414500699"] {
+            top: 462px;
+            left: calc(50% - 160px + 11px);
+            width: 300px;
+          }
+        }
+      </style>
+      <div class="t396">
+        <div class="t396__artboard rendered" data-artboard-recid="644874290"
+          data-artboard-screens="320,480,640,960,1200" data-artboard-height="640" data-artboard-valign="center"
+          data-artboard-height-res-320="610" data-artboard-height-res-480="620" data-artboard-height-res-640="540"
+          data-artboard-height-res-960="530" data-artboard-proxy-min-offset-top="0" data-artboard-proxy-min-height="640"
+          data-artboard-proxy-max-height="640">
+          <div class="t396__carrier" data-artboard-recid="644874290"></div>
+          <div class="t396__filter" data-artboard-recid="644874290"></div>
+          <div class="t396__elem tn-elem tn-elem__6448742901536161772606" data-elem-id="1536161772606"
+            data-elem-type="text" data-field-top-value="-94" data-field-left-value="0" data-field-width-value="690"
+            data-field-axisy-value="center" data-field-axisx-value="center" data-field-container-value="grid"
+            data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value=""
+            data-field-widthunits-value="" data-field-top-res-320-value="19" data-field-left-res-320-value="1"
+            data-field-width-res-320-value="300" data-field-top-res-480-value="40" data-field-left-res-480-value="1"
+            data-field-top-res-640-value="-106" data-field-left-res-640-value="-84" data-field-width-res-640-value="450"
+            data-field-top-res-960-value="-83" data-field-left-res-960-value="0" data-field-width-res-960-value="570"
+            data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits"
+            style="top: 175.5px; left: 286.5px; width: 690px;">
+            <div class="tn-atom" field="tn_text_1536161772606" style="line-height: 50px;">Попробуйте использовать наш
+              инструмент, это бесплатно</div>
+          </div>
+          <div class="t396__elem tn-elem tn-elem__6448742901536161805326" data-elem-id="1536161805326"
+            data-elem-type="text" data-field-top-value="300" data-field-left-value="0" data-field-width-value="620"
+            data-field-axisy-value="top" data-field-axisx-value="center" data-field-container-value="grid"
+            data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value=""
+            data-field-widthunits-value="" data-field-top-res-320-value="376" data-field-left-res-320-value="1"
+            data-field-width-res-320-value="260" data-field-top-res-480-value="397" data-field-left-res-480-value="1"
+            data-field-top-res-640-value="214" data-field-left-res-640-value="-148" data-field-width-res-640-value="320"
+            data-field-top-res-960-value="246" data-field-left-res-960-value="0" data-field-width-res-960-value="460"
+            data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits"
+            style="top: 300px; left: 321.5px; width: 620px;">
+            <div class="tn-atom" field="tn_text_1536161805326" style="line-height: 29px;">Срок пробного периода — 24
+              часа, кредитная карта не нужна</div>
+          </div>
+          <div class="t396__elem tn-elem tn-elem__6448742901548409532328" data-elem-id="1548409532328"
+            data-elem-type="image" data-field-top-value="48" data-field-left-value="-166" data-field-width-value="370"
+            data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+            data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value=""
+            data-field-widthunits-value="" data-field-filewidth-value="427" data-field-fileheight-value="508"
+            data-field-top-res-320-value="-312" data-field-left-res-320-value="60" data-field-top-res-480-value="-312"
+            data-field-left-res-480-value="140" data-field-top-res-640-value="-402" data-field-left-res-640-value="220"
+            data-field-width-res-640-value="220" data-field-top-res-960-value="58" data-field-left-res-960-value="-100"
+            data-field-width-res-960-value="280"
+            data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits"
+            style="left: -134.5px; top: 48px; width: 370px;">
+            <div class="tn-atom"><img class="tn-atom__img t-img"
+                data-original="https://static.tildacdn.info/tild3337-6233-4635-a262-643162666261/template_illustratio.svg"
+                alt="" imgfield="tn_img_1548409532328"></div>
+          </div>
+          <div class="t396__elem tn-elem tn-elem__6448742901548409534993" data-elem-id="1548409534993"
+            data-elem-type="image" data-field-top-value="106" data-field-left-value="990" data-field-width-value="344"
+            data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+            data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value=""
+            data-field-widthunits-value="" data-field-filewidth-value="334" data-field-fileheight-value="469"
+            data-field-top-res-320-value="68" data-field-left-res-320-value="74" data-field-width-res-320-value="154"
+            data-field-top-res-480-value="64" data-field-left-res-480-value="144" data-field-width-res-480-value="174"
+            data-field-top-res-640-value="216" data-field-left-res-640-value="400" data-field-width-res-640-value="224"
+            data-field-top-res-960-value="86" data-field-left-res-960-value="800" data-field-width-res-960-value="264"
+            data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits"
+            style="left: 1021.5px; top: 106px; width: 344px;">
+            <div class="tn-atom"><img class="tn-atom__img t-img"
+                data-original="https://static.tildacdn.info/tild3966-3466-4636-a261-383137663332/template_illustratio.svg"
+                alt="" imgfield="tn_img_1548409534993"></div>
+          </div>
+          <div class="t396__elem tn-elem tn-elem__6448742901548414500699 zero-form-rendered"
+            data-elem-id="1548414500699" data-elem-type="form" data-field-top-value="387" data-field-left-value="319"
+            data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left"
+            data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value=""
+            data-field-heightunits-value="" data-field-widthunits-value="" data-field-top-res-320-value="462"
+            data-field-left-res-320-value="11" data-field-width-res-320-value="300" data-field-top-res-480-value="480"
+            data-field-left-res-480-value="76" data-field-width-res-480-value="330" data-field-top-res-640-value="312"
+            data-field-left-res-640-value="11" data-field-width-res-640-value="340" data-field-top-res-960-value="338"
+            data-field-left-res-960-value="250" data-field-width-res-960-value="460" data-field-inputpos-value="h"
+            data-field-inputfontfamily-value="Open Sans" data-field-inputfontsize-value="16"
+            data-field-inputfontweight-value="400" data-field-inputcolor-value="#000"
+            data-field-inputbgcolor-value="#f4f7f9" data-field-inputbordercolor-value="#a5b9d9"
+            data-field-inputbordersize-value="1" data-field-inputheight-value="50" data-field-inputmargbottom-value="20"
+            data-field-inputtitlefontsize-value="16" data-field-inputtitlefontweight-value="400"
+            data-field-inputtitlecolor-value="#000" data-field-inputtitlemargbottom-value="5"
+            data-field-inputelsfontweight-value="400" data-field-inputelsfontsize-value="14"
+            data-field-buttontitle-value="Начать" data-field-buttoncolor-value="#fff"
+            data-field-buttonbgcolor-value="#0056d3" data-field-buttonwidth-value="160"
+            data-field-buttonheight-value="50" data-field-buttonfontfamily-value="Open Sans"
+            data-field-buttonfontsize-value="16" data-field-buttonfontweight-value="600"
+            data-field-inputfontsize-res-320-value="14" data-field-inputradius-res-320-value="0"
+            data-field-inputheight-res-320-value="40" data-field-buttonwidth-res-320-value="110"
+            data-field-buttonheight-res-320-value="40" data-field-buttonfontsize-res-320-value="14"
+            data-field-inputfontsize-res-640-value="15" data-field-inputheight-res-640-value="40"
+            data-field-inputtitlefontsize-res-640-value="15" data-field-buttonwidth-res-640-value="130"
+            data-field-buttonheight-res-640-value="40" data-field-buttonfontsize-res-640-value="14"
+            data-field-inputheight-res-960-value="45" data-field-buttonwidth-res-960-value="140"
+            data-field-buttonheight-res-960-value="45" data-field-buttonfontsize-res-960-value="15"
+            data-fields="width,top,left,inputs,container,axisx,axisy,widthunits,leftunits,topunits"
+            style="width: 560px; left: 350.5px; top: 387px;">
+            <div class="tn-atom tn-atom__form">
+              <style id="t-zero-placeholder-644874290-1548414500699">
+                #rec644874290 [data-elem-id="1548414500699"] input::-webkit-input-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874290 [data-elem-id="1548414500699"] input::-moz-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874290 [data-elem-id="1548414500699"] input:-moz-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874290 [data-elem-id="1548414500699"] input:-ms-input-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874290 [data-elem-id="1548414500699"] textarea::-webkit-input-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874290 [data-elem-id="1548414500699"] textarea::-moz-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874290 [data-elem-id="1548414500699"] textarea:-moz-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+
+                #rec644874290 [data-elem-id="1548414500699"] textarea:-ms-input-placeholder {
+                  color: #000;
+                  opacity: 0.5;
+                }
+              </style>
+              <form class="t-form t-form_inputs-total_1 tn-form_horiz js-form-proccess" id="form644874290"
+                name="form644874290" action="https://forms.tildacdn.com/procces/" method="POST" role="form"
+                data-formactiontype="2" data-inputbox=".t-input-group" data-success-callback="t396_onSuccess"
+                data-success-popup="y" data-error-popup="y">
+                <div class="js-successbox t-form__successbox t-text t-text_sm" style="display: none;"></div>
+                <div class="t-form__inputsbox">
+                  <div class="t-input-group t-input-group_em" data-input-lid="1531306243545"
+                    style="margin-bottom: 20px;">
+                    <div class="t-input-block"><input aria-label="email" type="text" name="email"
+                        class="t-input js-tilda-rule t-input-inline-styles" data-tilda-rule="email"
+                        placeholder="mail@example.com"
+                        style="color: rgb(0, 0, 0); border: 1px solid rgb(165, 185, 217); background-color: rgb(244, 247, 249); font-size: 16px; font-weight: 400; height: 50px;">
+                      <div class="t-input-error"></div>
+                    </div>
+                  </div>
+                  <div class="t-form__errorbox-middle">
+                    <div class="js-errorbox-all t-form__errorbox-wrapper" style="display: none;">
+                      <div class="t-form__errorbox-text t-text_xs t-text">
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-all"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-req"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-email"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-name"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-phone"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-string"></p>
+                      </div>
+                      <div class="tn-form__errorbox-close js-errorbox-close">
+                        <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-left"></div>
+                        <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tn-form__submit"><button type="submit" class="t-submit"
+                      style="padding: 0px 15px; display: block; width: 160px; font-weight: 600; height: 50px;">Начать</button>
+                  </div>
+                </div>
+                <div class="t-form__errorbox-bottom">
+                  <div class="js-errorbox-all t-form__errorbox-wrapper" style="display: none;">
+                    <div class="t-form__errorbox-text t-text_xs t-text">
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-all"></p>
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-req"></p>
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-email"></p>
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-name"></p>
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-phone"></p>
+                      <p class="t-form__errorbox-item js-rule-error js-rule-error-string"></p>
+                    </div>
+                    <div class="tn-form__errorbox-close js-errorbox-close">
+                      <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-left"></div>
+                      <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-right"></div>
+                    </div>
+                  </div>
+                </div>
+                <div style="position: absolute; left: -5000px; bottom: 0px; display: none;"><input type="text"
+                    name="form-spec-comments" class="js-form-spec-comments" tabindex="-1"></div>
+              </form>
+              <style id="t-zero-form-btn-styles-1548414500699-644874290">
+                #rec644874290 [data-elem-id="1548414500699"] .t-submit {
+                  color: #fff;
+                  border-radius: 0px;
+                  font-size: 16px;
+                  font-family: Open Sans;
+                  cursor: pointer;
+                  background-color: #0056d3;
+                }
+              </style>
+            </div><!--googleoff: all--><!--noindex-->
+            <div data-nosnippet="true" class="tn-atom__inputs-wrapp" style="display:none;"><textarea
+                class="tn-atom__inputs-textarea">{"0":{"lid":"1531306243545","ls":"10","loff":"","li_type":"em","li_name":"email","li_ph":"mail@example.com","li_nm":"email"}}</textarea>
+            </div><!--/noindex--><!--googleon: all-->
+          </div>
+        </div>
+      </div>
+      <script>t_onReady(function () {
+          t_onFuncLoad('t396_init', function () {
+            t396_init('644874290');
+          });
+        });</script><!-- /T396 -->
+    </div>
+    <div id="rec644897375" class="r t-rec t-rec_pt_0 t-rec_pb_75"
+      style="padding-top:0px;padding-bottom:75px;background-color:#171717; " data-animationappear="off"
+      data-record-type="452" data-bg-color="#171717"><!-- T452 -->
+      <div class="t452" id="t-footer_644897375">
+        <div class="t452__maincontainer" style="height: 80px;">
+          <div class="t452__content">
+            <div class="t452__col t452__col_hiddenmobile">
+              <div class="t452__typo t452__copyright t-name t-name_xs" field="text" style="color: #ffffff;">© 2023 LONG
+                FLOW</div>
+            </div>
+            <div class="t452__col t452__col_center t-align_center">
+              <div class="t-sociallinks">
+                <ul role="list" class="t-sociallinks__wrapper" aria-label="Social media links"><!-- new soclinks -->
+                  <li class="t-sociallinks__item t-sociallinks__item_telegram"><a href="https://t.me/longflowit"
+                      target="_blank" rel="nofollow noopener" aria-label="telegram"
+                      style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation"
+                        width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm21.977-68.056c.386-4.38-4.24-2.576-4.24-2.576-3.415 1.414-6.937 2.85-10.497 4.302-11.04 4.503-22.444 9.155-32.159 13.734-5.268 1.932-2.184 3.864-2.184 3.864l8.351 2.577c3.855 1.16 5.91-.129 5.91-.129l17.988-12.238c6.424-4.38 4.882-.773 3.34.773l-13.49 12.882c-2.056 1.804-1.028 3.35-.129 4.123 2.55 2.249 8.82 6.364 11.557 8.16.712.467 1.185.778 1.292.858.642.515 4.111 2.834 6.424 2.319 2.313-.516 2.57-3.479 2.57-3.479l3.083-20.226c.462-3.511.993-6.886 1.417-9.582.4-2.546.705-4.485.767-5.362Z"
+                          fill="#ffffff"></path>
+                      </svg></a></li>
+                  <li class="t-sociallinks__item t-sociallinks__item_instagram"><a target="_blank" rel="nofollow"
+                      aria-label="instagram" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg"
+                        role="presentation" width="30px" height="30px" viewBox="0 0 100 100" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM25 39.3918C25 31.4558 31.4566 25 39.3918 25H60.6082C68.5442 25 75 31.4566 75 39.3918V60.8028C75 68.738 68.5442 75.1946 60.6082 75.1946H39.3918C31.4558 75.1946 25 68.738 25 60.8028V39.3918ZM36.9883 50.0054C36.9883 42.8847 42.8438 37.0922 50.0397 37.0922C57.2356 37.0922 63.0911 42.8847 63.0911 50.0054C63.0911 57.1252 57.2356 62.9177 50.0397 62.9177C42.843 62.9177 36.9883 57.1252 36.9883 50.0054ZM41.7422 50.0054C41.7422 54.5033 45.4641 58.1638 50.0397 58.1638C54.6153 58.1638 58.3372 54.5041 58.3372 50.0054C58.3372 45.5066 54.6145 41.8469 50.0397 41.8469C45.4641 41.8469 41.7422 45.5066 41.7422 50.0054ZM63.3248 39.6355C65.0208 39.6355 66.3956 38.2606 66.3956 36.5646C66.3956 34.8687 65.0208 33.4938 63.3248 33.4938C61.6288 33.4938 60.2539 34.8687 60.2539 36.5646C60.2539 38.2606 61.6288 39.6355 63.3248 39.6355Z"
+                          fill="#ffffff"></path>
+                      </svg></a></li><!-- /new soclinks -->
+                </ul>
+              </div>
+            </div>
+            <div class="t452__col t452__col_mobile">
+              <div class="t452__typo t452__copyright t-name t-name_xs" field="text" style="color: #ffffff;">© 2023 LONG
+                FLOW</div>
+            </div>
+            <div class="t452__col">
+              <div class="t452__scroll t-align_right"><a class="t452__typo t-name t-name_xs t452_scrolltop"
+                  style="color: #ffffff;" href="javascript:t452_scrollToTop();">Back to top<span class="t452__icon"><svg
+                      role="presentation" width="5px" height="17px" viewBox="0 0 6 20" version="1.1">
+                      <defs></defs>
+                      <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                        sketch:type="MSPage">
+                        <g id="Desktop-HD-Copy-39" sketch:type="MSArtboardGroup"
+                          transform="translate(-569.000000, -1797.000000)" fill="#ffffff">
+                          <path
+                            d="M565.662286,1804.2076 L562.095536,1806.87166 C561.958036,1807.00916 561.958036,1807.16385 562.095536,1807.30135 L565.662286,1809.96541 C565.799786,1810.10291 565.941411,1810.0431 565.941411,1809.83616 L565.941411,1808.11741 L581.816411,1808.11741 L581.816411,1806.05491 L565.941411,1806.05491 L565.941411,1804.33616 C565.941411,1804.18147 565.866474,1804.1141 565.769536,1804.14297 C565.737224,1804.1526 565.696661,1804.17322 565.662286,1804.2076 Z"
+                            id="Shape" sketch:type="MSShapeGroup"
+                            transform="translate(571.904411, 1807.088000) rotate(-270.000000) translate(-571.904411, -1807.088000) ">
+                          </path>
+                        </g>
+                      </g>
+                    </svg></span></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--/allrecords--><!-- Tilda copyright. Don't remove this line -->
+  <div class="t-tildalabel " id="tildacopy" data-tilda-sign="7876076#39865698"
+    style="display: block !important; visibility: visible !important; position: relative !important; width: 100% !important; pointer-events: all !important; opacity: 1 !important; margin: 0 !important; z-index: 1 !important">
+    <a href="https://tilda.cc/?upm=7876076" class="t-tildalabel__link">
+      <div class="t-tildalabel__wrapper">
+        <div class="t-tildalabel__txtleft">Made on </div>
+        <div class="t-tildalabel__wrapimg"><img src="./Lonf Flow Arbitrage_files/tildacopy.png"
+            class="t-tildalabel__img" fetchpriority="low" alt=""></div>
+        <div class="t-tildalabel__txtright">Tilda</div>
+      </div>
+    </a></div><!-- Stat -->
+  <script type="text/javascript">if (!window.mainTracker) { window.mainTracker = 'tilda'; }
+    window.tildastatcookie = 'no';
+    setTimeout(function () {
+      (function (d, w, k, o, g) { var n = d.getElementsByTagName(o)[0], s = d.createElement(o), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.key = k; s.id = "tildastatscript"; s.src = g; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, 'aa2cfd6f9cd103a98b0a836f59a6a245', 'script', 'https://static.tildacdn.info/js/tilda-stat-1.0.min.js');
+    }, 2000); </script>
+  <link href="./Lonf Flow Arbitrage_files/tilda-zero-form-errorbox.min.css" rel="stylesheet"
+    id="t-zero-form-errorbox-styles">
+  <link href="./Lonf Flow Arbitrage_files/tilda-zero-form-horizontal.min.css" rel="stylesheet"
+    id="t-zero-form-h-styles">
+</body>
+
+</html>
