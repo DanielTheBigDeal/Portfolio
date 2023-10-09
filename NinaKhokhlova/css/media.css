@@ -1,0 +1,97 @@
+@media (max-width: 1698px) {
+
+  .top__card {
+    max-width: 700px;
+  }
+
+  .top__name {
+    font-size: 50px;
+  }
+
+  .top__subhead {
+    font-size: 38px;
+  }
+
+  .services__list {
+    max-width: 1272px;
+    margin: 0 auto;
+  }
+
+  .cases__name {
+    font-size: 38px;
+  }
+
+  .cases__head {
+    font-size: 30px;
+  }
+
+  .cases__link {
+    font-size: 25px;
+  }
+
+  .cases__bigImg {
+    max-width: 800px;
+    min-height: 500px;
+  }
+
+  .footer__mail, .footer__phone {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1452px) {
+
+  .top__card {
+    max-width: 650px;
+  }
+
+  .top__subhead {
+    font-size: 33px;
+  }
+
+  .top__descr {
+    font-size: 28px;
+  }
+
+  .section-head {
+    font-size: 40px;
+  }
+
+  .benefits__benefit {
+    font-size: 21px;
+  }
+
+  .benefits__descr {
+    font-size: 18px;
+  }
+
+  .services__list {
+    max-width: 846px;
+  }
+
+  .cases__name {
+    font-size: 30px;
+  }
+
+  .cases__head {
+    font-size: 26px;
+  }
+
+  .cases__link {
+    font-size: 20px;
+  }
+
+  .cases__img {
+    max-width: 400px;
+    height: 270px;
+  }
+
+  .cases__bigImg {
+    max-width: 600px;
+    min-height: 400px;
+  }
+
+  .footer__mail, .footer__phone {
+    font-size: 26px;
+  }
+}
