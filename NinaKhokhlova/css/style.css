@@ -5,7 +5,7 @@ html {
 body {
   font-family: 'FuturaPT', Arial, sans-serif;
   color: aliceblue;
-  background-color: rgb(7, 7, 77);
+  background-color: rgb(36, 54, 111); /*rgb(7, 7, 77)*/
 }
 
 * {
@@ -17,8 +17,12 @@ body {
 }
 
 .container {
-  max-width: calc(1700/1920*100%);
+  max-width: 1700px;
   margin: 0 auto;
+}
+
+.burger {
+  display: none;
 }
 
 .list-reset {
@@ -96,14 +100,14 @@ body {
   margin-bottom: 80px;
 }
 
-.top__photo {
+.top__photo img {
   border-radius: 16px;
   overflow: hidden;
 }
 
 .top__card {
   max-width: 900px;
-  margin-left: 100px;
+  padding-left: 100px;
 }
 
 .top__name {
@@ -199,13 +203,15 @@ body {
 .services__list {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1667px;
+  margin: 0 auto;
   gap: 6px;
 }
 
 .services__service {
   display: flex;
   flex-direction: column;
-  max-width: 380px;
+  max-width: 372px;
   width: 100%;
   padding: 20px;
   font-size: 22px;
@@ -325,6 +331,7 @@ body {
 }
 
 .footer__icons {
+  display: flex;
   justify-content: center;
   gap: 20px;
   padding-bottom: 100px;
