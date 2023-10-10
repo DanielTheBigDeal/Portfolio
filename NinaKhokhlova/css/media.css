@@ -1,4 +1,12 @@
+body {
+  --container: calc(1700/1920*100%);
+}
+
 @media (max-width: 1698px) {
+
+  .container {
+    max-width: var(--container);
+  }
 
   .top__card {
     max-width: 700px;
@@ -45,11 +53,15 @@
     max-width: 650px;
   }
 
+  .top__name {
+    padding-top: 50px;
+  }
+
   .top__subhead {
     font-size: 33px;
   }
 
-  .top__descr {
+  .top__item {
     font-size: 28px;
   }
 
@@ -93,5 +105,358 @@
 
   .footer__mail, .footer__phone {
     font-size: 26px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .section-head {
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  .header__item {
+    font-size: 22px;
+  }
+
+  .header__phone {
+    font-size: 22px;
+  }
+
+  .top__card {
+    max-width: 570px;
+    padding-left: 70px;
+  }
+
+  .top__photo img {
+    max-width: 400px;
+  }
+
+  .top__name {
+    font-size: 40px;
+  }
+
+  .top__subhead {
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+
+  .top__item {
+    font-size: 25px;
+  }
+
+  .benefits__descr {
+    font-size: 15px;
+  }
+
+  .services__service {
+    font-size: 16px;
+  }
+
+  .benefits__benefit {
+    font-size: 16px;
+  }
+
+  .benefits__descr {
+    font-size: 14px;
+  }
+
+  .cases__name {
+    font-size: 27px;
+  }
+
+  .cases__head {
+    font-size: 20px;
+  }
+
+  .cases__link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1100px) {
+
+  .section-head {
+    font-size: 30px;
+  }
+
+  .top__photo img {
+    max-width: 300px;
+  }
+
+  .top__name {
+    padding-top: 0;
+    font-size: 35px;
+  }
+
+  .top__subhead {
+    margin-bottom: 38px;
+    font-size: 25px;
+  }
+
+  .benefits__list {
+    gap: 10px;
+  }
+
+  .benefits__item {
+    padding: 10px;
+  }
+
+  .cases__name {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 992px) {
+  .top__photo img {
+    max-width: 200px;
+  }
+
+  .top__card {
+    max-width: 500px;
+  }
+
+  .top__name {
+    font-size: 30px;
+  }
+
+  .top__subhead {
+    margin-bottom: 28px;
+    font-size: 20px;
+  }
+
+  .top__item {
+    font-size: 18px;
+  }
+
+  .section-head {
+    font-size: 25px;
+  }
+
+  .benefits__benefit {
+    font-size: 14px;
+  }
+
+  .benefits__descr {
+    font-size: 12px;
+  }
+
+  .services__list {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  .services__service {
+    max-width: 315px;
+  }
+
+  .cases__name {
+    font-size: 20px;
+  }
+
+  .cases__head {
+    font-size: 18px;
+  }
+
+  .cases__link {
+    font-size: 16px;
+  }
+
+  .footer__mail, .footer__phone {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 830px) {
+  .top__card {
+    max-width: 400px;
+    padding-left: 40px;
+  }
+
+  .services__list {
+    max-width: 475px;
+  }
+
+  .services__service {
+    max-width: 189px;
+  }
+
+  .cases__img {
+    width: 290px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 740px) {
+
+  .flex {
+    justify-content: space-between;
+  }
+
+  .header__item, .header__phone {
+    font-size: 18px;
+  }
+
+  .top__card {
+    max-width: 370px;
+    padding-left: 15px;
+  }
+
+  .top__photo img {
+    max-width: 150px;
+  }
+
+  .top__name {
+    font-size: 28px;
+  }
+
+  .top__subhead {
+    font-size: 19px;
+  }
+
+  .top__descr {
+    font-size: 16px;
+  }
+
+  .section-head {
+    font-size: 25px;
+  }
+
+  .benefits__list {
+    flex-wrap: wrap;
+  }
+
+  .bp {
+    margin: 0 auto;
+  }
+
+  .cases__name {
+    font-size: 19px;
+  }
+
+  .cases__head {
+    font-size: 17px;
+  }
+
+  .cases__link {
+    font-size: 16px;
+  }
+
+  .cases__head {
+    margin-bottom: 20px;
+  }
+
+  .cases__img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .cases__button {
+    padding: 10px 25px;
+  }
+
+}
+
+@media (max-width: 568px) {
+
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .header__container {
+    flex-direction: column-reverse;
+  }
+
+  .header__phone {
+    display: none;
+  }
+
+  .header__list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__item {
+    font-size: 17px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .top__photo {
+    margin: 0 auto;
+  }
+
+  .top__photo img {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .top__card {
+    max-width: 500px;
+    padding-left: 0;
+  }
+
+  .top__name {
+    text-align: center;
+  }
+
+  .top__subhead {
+    text-align: center;
+  }
+
+  .services__list {
+    max-width: 320px;
+  }
+
+  .services__service {
+    max-width: 137px;
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .cases__name {
+    font-size: 17px;
+  }
+
+  .cases__head {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .cases__img {
+    display: none;
+  }
+
+  .cases__button {
+    margin-bottom: 10px;
+  }
+
+  .cases__link {
+    font-size: 13px;
+  }
+
+  .footer__mail, .footer__phone {
+    font-size: 17px;
+  }
+
+  .footer__icons {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 362px) {
+
+  .header__list {
+    overflow: scroll;
+  }
+
+  .services__list {
+    max-width: 138px;
   }
 }
