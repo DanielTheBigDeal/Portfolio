@@ -1,0 +1,85 @@
+body * {
+  margin-top: 0;
+  padding: 0;
+  font-family: TT Travels;
+}
+
+.container {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 0;
+  padding-top: 133px;
+  margin: 0;
+  list-style: none;
+}
+
+.events__event {
+  max-width: 313px;
+  width: 100%;
+  padding: 25px 35px 39px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+}
+
+.events__event:not(:nth-child(4n)) {
+  margin-right: 7px;
+}
+
+.events__date {
+  margin-bottom: 19px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.events__name {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.events__description {
+  margin-bottom: 17px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.events__location {
+  margin-bottom: 12px;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  background-image: url('../img/location.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.events__link {
+  display: inline-block;
+  margin-bottom: 25px;
+  padding-left: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-decoration: none;
+  color: black;
+  background-image: url('../img/exit.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.events__buy {
+  display: flex;
+  justify-content: space-between;
+}
