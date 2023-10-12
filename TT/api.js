@@ -159,8 +159,64 @@ let result = [
 
 const $eventsList = document.getElementById('eventsList');
 
-function showCard(item) {
-  for (item of result) {
+/*function detectYear(year) {
+  if (year.value = 2023) {
+    console.log(year.value);
+  }
+}*/
+
+/*function January() {
+
+  for (const item of $eventsList) {
+    if (item.date_range.includes('январ')) {
+      
+    }
+  }
+}*/
+
+
+const year = document.getElementById('footer-year');
+
+const year2023 = document.getElementById('2023');
+const year2024 = document.getElementById('2024');
+
+
+year.onchange = () => {
+  let yearV = year.value;
+
+  if (yearV = 2024) {
+    year2024.classList.add('d-flex');
+    year2024.classList.remove('none');
+    year2023.classList.add('none'); 
+  }
+}
+
+function packJanuary2023(obj) {
+  let january2023 = [];
+  for (obj of result) {
+    if (obj.date_range.includes('января 2023')) {
+      january2023.push(obj)
+    }
+    // else if (january2023 == null) {
+    //   $eventsList.innerHTML = '<li><h2>В этом месяце нет событий</h2></li>'
+    // } doesn't work
+  }
+  showCard(january2023);
+}
+
+
+function packNovember2023(obj) {
+  let november2023 = [];
+  for (obj of result) {
+    if (obj.date_range.includes('ноября 2023')) {
+      november2023.push(obj)
+    }
+  }
+  showCard(november2023);
+}
+
+function showCard(arr) {
+  for (const item of arr) {
     $Event = document.createElement('li');
     $Event.classList.add('col-3')
     $Event.classList.add('events__event');
@@ -204,7 +260,9 @@ function showCard(item) {
     $EventBuy.classList.add('events__buy');
 
     const $EventBtn = document.createElement('button');
+    $EventBtn.classList.add('events__btn');
     const $EventTicketLink = document.createElement('a');
+    $EventTicketLink.classList.add('events__btn__link');
 
     $EventTicketLink.href = buy.link;
     $EventTicketLink.textContent = 'Купить билет';
@@ -212,7 +270,8 @@ function showCard(item) {
 
     const $EventAbout = document.createElement('a');
     $EventAbout.href = item.url;
-    $EventAbout.textContent = 'Подробнее'
+    $EventAbout.textContent = 'Подробнее';
+    $EventAbout.classList.add('events__more')
     
     $EventBuy.append($EventBtn, $EventAbout);
 
@@ -220,5 +279,3 @@ function showCard(item) {
     $eventsList.append($Event);
   }
 }
-
-showCard(result);

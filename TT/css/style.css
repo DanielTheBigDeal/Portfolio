@@ -16,13 +16,15 @@ body * {
   padding: 0;
   padding-top: 133px;
   margin: 0;
+  margin-bottom: 233px;
   list-style: none;
 }
 
 .events__event {
+  position: relative;
   max-width: 313px;
   width: 100%;
-  padding: 25px 35px 39px 30px;
+  padding: 25px 35px 75px 30px;
   border-radius: 10px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
 }
@@ -80,6 +82,119 @@ body * {
 }
 
 .events__buy {
+  position: absolute;
+  bottom: 39px;
   display: flex;
-  justify-content: space-between;
+}
+
+.events__btn {
+  padding: 9px 20px 8px 19px;
+  margin-right: 31px;
+  background-color: #6B46D4;
+  border: none;
+  color: white;
+}
+
+.events__btn__link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-decoration: none;
+  color: white;
+}
+
+.events__more {
+  display: inline-block;
+  height: fit-content;
+  padding-top: 9px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-decoration: none;
+  color: #6B46D4;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #262529;
+}
+
+.footer__row {
+  display: flex;
+  margin-bottom: 9px;
+}
+
+.footer__column {
+  display: inline-block;
+}
+
+.footer__column:first-child {
+  max-width: 589px;
+  width: 100%;
+  margin-right: 58px;
+  padding-top: 58px;
+}
+
+.footer__text {
+  margin-bottom: 29px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+}
+
+.footer__column:nth-child(2) {
+  max-width: 1050px;
+}
+
+.footer__slider {
+  display: flex;
+}
+
+.footer__select {
+  display: inline-block;
+  max-width: fit-content;
+  margin-bottom: 0;
+  margin-right: 91px;
+  padding-top: 8px;
+  padding-bottom: 30px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: -0.05em;
+  color: white;
+  background-color: #262529;
+  border: none;
+  outline: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+.footer__year {
+  text-align: center;
+  color: white;
+  background-color: #262529;
+  cursor: pointer;
+}
+
+.footer__list {
+  display: flex;
+  gap: 58px;
+  list-style: none;
+  border-top: 2px solid white;
+}
+
+.footer__month {
+  padding-top: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
 }
