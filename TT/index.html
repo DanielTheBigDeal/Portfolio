@@ -29,7 +29,7 @@
       </div>
       <div class="footer__slider">
         <form action="#">
-          <select class="footer__select" name="year" id="footer-year">
+          <select onchange="changeYear()" class="footer__select" name="year" id="footer-year">
             <option value="2023" class="footer__year">2023 год:</option>
             <option value="2024" class="footer__year">2024 год:</option>
           </select>
@@ -37,33 +37,33 @@
         <div class="footer__wraper">
           <ul id="2023" class="footer__list">
             <li class="footer__month" onclick="packJanuary2023()">январь</li>
-            <li class="footer__month">февраль</li>
-            <li class="footer__month">март</li>
-            <li class="footer__month">апрель</li>
-            <li class="footer__month">май</li>
-            <li class="footer__month">июнь</li>
-            <li class="footer__month">июль</li>
-            <li class="footer__month">август</li>
-            <li class="footer__month">сентябрь</li>
-            <li class="footer__month">октябрь</li>
+            <li class="footer__month" onclick="packFebruary2023()">февраль</li>
+            <li class="footer__month" onclick="packMarch2023()">март</li>
+            <li class="footer__month" onclick="packApril2023()">апрель</li>
+            <li class="footer__month" onclick="packMay2023()">май</li>
+            <li class="footer__month" onclick="packJune2023()">июнь</li>
+            <li class="footer__month" onclick="packJuly2023()">июль</li>
+            <li class="footer__month" onclick="packAugust2023()">август</li>
+            <li class="footer__month" onclick="packSeptember2023()">сентябрь</li>
+            <li class="footer__month" onclick="packOctober2023()">октябрь</li>
             <li class="footer__month" onclick="packNovember2023()">ноябрь</li>
-            <li class="footer__month">декабрь</li>
+            <li class="footer__month" onclick="packDecember2023()">декабрь</li>
           </ul>
         </div>
         <div class="footer__wraper">
-          <ul id="2024" class="footer__list none">
-            <li class="footer__month" style="color: red;">январь</li>
-            <li class="footer__month">февраль</li>
-            <li class="footer__month">март</li>
-            <li class="footer__month">апрель</li>
-            <li class="footer__month">май</li>
-            <li class="footer__month">июнь</li>
-            <li class="footer__month">июль</li>
-            <li class="footer__month">август</li>
-            <li class="footer__month">сентябрь</li>
-            <li class="footer__month">октябрь</li>
-            <li class="footer__month">ноябрь</li>
-            <li class="footer__month">декабрь</li>
+          <ul id="2024" class="footer__list second none">
+            <li class="footer__month" onclick="packJanuary2024()">январь</li>
+            <li class="footer__month" onclick="packFebruary2024()">февраль</li>
+            <li class="footer__month" onclick="packMarch2024()">март</li>
+            <li class="footer__month" onclick="packApril2024()">апрель</li>
+            <li class="footer__month" onclick="packMay2024()">май</li>
+            <li class="footer__month" onclick="packJune2024()">июнь</li>
+            <li class="footer__month" onclick="packJuly2024()">июль</li>
+            <li class="footer__month" onclick="packAugust2024()">август</li>
+            <li class="footer__month" onclick="packSeptember2024()">сентябрь</li>
+            <li class="footer__month" onclick="packOctober2024()">октябрь</li>
+            <li class="footer__month" onclick="packNovember2024()">ноябрь</li>
+            <li class="footer__month" onclick="packDecember2024()">декабрь</li>
           </ul>
         </div>
       </div>

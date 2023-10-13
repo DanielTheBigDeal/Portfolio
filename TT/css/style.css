@@ -110,7 +110,6 @@ body * {
   font-size: 18px;
   font-weight: 500;
   line-height: 22px;
-  text-decoration: none;
   color: #6B46D4;
 }
 
@@ -179,6 +178,7 @@ body * {
 }
 
 .footer__list {
+  position: relative;
   display: flex;
   gap: 58px;
   list-style: none;
@@ -197,4 +197,19 @@ body * {
 
 .none {
   display: none;
+}
+
+.empty {
+  font-size: 40px;
+  color: #cacaca;
+}
+
+.pointer {
+  position: absolute;
+  display: flex;
+  top: -6px;
+  width: 35px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: white;
 }
