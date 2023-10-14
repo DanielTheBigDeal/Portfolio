@@ -282,8 +282,13 @@ body {
   }
 
   .cases__img {
-    width: 290px;
+    max-width: 290px;
     height: 200px;
+  }
+
+  .cases__bigImg {
+    max-width: 500px;
+    min-height: 380px;
   }
 }
 
@@ -347,12 +352,17 @@ body {
   }
 
   .cases__img {
-    width: 200px;
+    max-width: 200px;
     height: 150px;
   }
 
   .cases__button {
     padding: 10px 25px;
+  }
+
+  .cases__bigImg {
+    max-width: 400px;
+    min-height: 250px;
   }
 
 }
