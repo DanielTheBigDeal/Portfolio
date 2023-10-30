@@ -209,6 +209,7 @@ body {
 }
 
 .services__service {
+  position: relative;
   display: flex;
   flex-direction: column;
   max-width: 372px;
@@ -222,6 +223,15 @@ body {
 
 .services__service:hover {
   background-color: rgb(55, 121, 196);
+}
+
+.services__price {
+  position: absolute;
+  bottom: 10px;
+  margin-bottom: 0;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 /*cases*/
