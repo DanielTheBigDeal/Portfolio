@@ -220,6 +220,24 @@
         </span>
       </div>
     </section>
+    <section class="feedback">
+      <div class="container">
+        <form id="form" class="contacts__form" action="mail.php" method="POST">
+          <div class="contacts__form_row">
+            <input type="text" name="user_name" id="name" class="contacts__inp" required autocomplete="off"
+              minlength="2" maxlength="20" title="Как к вам обращаться?" placeholder="Имя*">
+            <input type="text" name="user_email" id="email" class="contacts__inp" required autocomplete="off"
+              minlength="5" maxlength="40" title="Отправлю вам письмо" placeholder="Email*">
+            <input type="text" name="user_phone" id="phone" class="contacts__inp" required autocomplete="off"
+            minlength="5" maxlength="40" title="Позвоню вам" placeholder="Телефон*">
+            <button class="btn-reset contacts__btn" type="submit">Отправить</button>
+          </div>
+          <div class="contacts__form_row">
+            <p class="contacts__rule">Нажимая 'отправить', вы соглашаетесь на обработку персональных данных</p>
+          </div>
+        </form>
+      </div>
+    </section>
   </main>
   <footer id="contacts" class="footer">
     <div class="container">
